@@ -32,6 +32,7 @@ body, h1, h2, h3, h4, h5, h6 {
     }
 }
 
+
 .c_hero {
     position: relative;
     height: 100vh;
@@ -52,6 +53,7 @@ body, h1, h2, h3, h4, h5, h6 {
     font-size: 3.5em;
     line-height: 1.25;
     text-transform: uppercase;
+    color: white;
 }
 
 @media (min-width: 43.75em) {
@@ -79,22 +81,18 @@ body, h1, h2, h3, h4, h5, h6 {
 
 /*COLORS*/
 
-#home .c_hero {
-    background-color: #1976d2;
+#p-home #group1 .parallax__layer--back {
+    background: #1976d2;
 }
 
-#work .c_hero {
-    background-color: #049B51;
+#p-work #group1 .parallax__layer--back {
+    background: #049B51;
 }
 
-#about .c_hero {
-    background-color: #6a1b9a;
+#p-about #group1 .parallax__layer--back {
+    background: #6a1b9a;
 }
 
-#process .c_hero {
-    background-color: #D50C81;
-}
-
-.c_hero_headline {
-    color: white;
+#p-process #group1 .parallax__layer--back {
+    background: #D50C81;
 }
