@@ -57,7 +57,7 @@ body {
     transform: translateZ(-300px) scale(.7) translateX(calc(-50% / .7));
 }
 
-.title {
+.c_content_headline {
     text-align: center;
     position: absolute;
     left: 50%;
@@ -89,7 +89,7 @@ body {
 }
 
 #group3 .parallax__layer--base {
-    background: purple;
+    background: white;
 }
 
 /*---BANNER-----------------------------------------------------------------------------------------*/
