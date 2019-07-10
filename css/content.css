@@ -36,17 +36,7 @@ h2 {
     font-weight: 800;
 }
 
-#work .c_content_headline h2 {
-    color: #049B51;
-}
 
-#about .c_content_headline h2 {
-    color: #6203B6;
-}
-
-#process .c_content_headline h2 {
-    color: #D50C81;
-}
 
 @media (min-width: 43.75em) {
     h2 {
@@ -124,6 +114,20 @@ ul {
     list-style-type: none;
 }
 
+
+/*--COLORS--*/
 body {
     background-color: white;
+}
+
+#p-work #group3 h2 {
+    color: #049B51;
+}
+
+#p-about #group3 h2 {
+    color: #6203B6;
+}
+
+#process .c_content_headline h2 {
+    color: #D50C81;
 }
