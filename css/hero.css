@@ -1,0 +1,100 @@
+
+/*TYPOGRAPHY*/
+
+.nav-link {
+    color: white;
+}
+
+body {
+    font-size: 100%;
+    font-family: Montserrat, sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-size-adjust: 0.5;
+}
+
+/* Body Content */
+
+#page {
+    font-size: 1em;
+    /* equivalent to 16px */
+    line-height: 1.25;
+    /* equivalent to 20px */
+}
+
+@media (min-width: 43.75em) {
+    #page {
+        font-size: 1em;
+        /* equivalent to 16px */
+        line-height: 1.375;
+        /* equivalent to 22px */
+    }
+}
+
+.c_hero {
+    position: relative;
+    height: 100vh;
+}
+
+.c_hero_headline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.c_hero h1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 3.5em;
+    line-height: 1.25;
+    text-transform: uppercase;
+}
+
+@media (min-width: 43.75em) {
+    .c_hero h1 {
+        font-size: 4em;
+        line-height: 1.125;
+    }
+}
+
+@media (min-width: 56.25em) {
+    .c_hero h1 {
+        font-size: 5em;
+        line-height: 1.05;
+    }
+}
+
+
+@media (min-width: 90em) {
+    .c_hero h1 {
+        font-size: 6em;
+    }
+}
+
+
+
+/*COLORS*/
+
+#home .c_hero {
+    background-color: #1976d2;
+}
+
+#work .c_hero {
+    background-color: #049B51;
+}
+
+#about .c_hero {
+    background-color: #6a1b9a;
+}
+
+#process .c_hero {
+    background-color: #D50C81;
+}
+
+.c_hero_headline {
+    color: white;
+}
