@@ -6,7 +6,7 @@
 }
 
 body {
-    font-size: 100%;
+    font-size: 16px;
     font-family: Montserrat, sans-serif;
 }
 
@@ -45,7 +45,7 @@ body, h1, h2, h3, h4, h5, h6 {
     transform: translateX(-50%);
 }
 
-.c_hero h1 {
+.c_hero_headline h1 {
     font-family: Montserrat, sans-serif;
     font-weight: 800;
     text-align: center;
@@ -55,14 +55,14 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 43.75em) {
-    .c_hero h1 {
+    .c_hero_headline h1 {
         font-size: 4em;
         line-height: 1.125;
     }
 }
 
 @media (min-width: 56.25em) {
-    .c_hero h1 {
+    .c_hero_headline h1 {
         font-size: 5em;
         line-height: 1.05;
     }

@@ -6,6 +6,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!--CSS Reset-->
+    <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/">
+
+    <!-- Material Design for Bootstrap CSS -->
+    <link rel="stylesheet"
+          href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+          integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+
+   <!--HERO CSS-->
+    <link rel="stylesheet" href="css/hero.css">
+
+    <!--BANNER CSS-->
+    <link rel="stylesheet" href="css/banner.css">
 
     <!--Parallax CSS -->
     <link rel="stylesheet" href="css/parallax.css">
@@ -16,16 +29,32 @@
 <body id="test">
 
 <div class="parallax">
+
+   <!--HERO-------------------------------------------------------------------------------------------------->
     <div id="group1" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
+
+            <header>
+                <nav class="nav justify-content-center" style="background-color: #1976d2">
+                    <a class="nav-link active" href="index.html">home</a>
+                    <a class="nav-link" href="work.html">work</a>
+                    <a class="nav-link" href="about.html">about</a>
+                    <a class="nav-link" href="process.html">process</a>
+                    <a class="nav-link" href="#">contact</a>
+                </nav>
+            </header>
+
             <div class="c_hero_headline">
                 <h1>better by design</h1>
             </div>
+
         </div>
         <div class="parallax__layer parallax__layer--back">
             <img class="c_hero_image" src="images/sales_doc_small.png" alt="test image">
         </div>
     </div>
+
+    <!--BANNER---------------------------------------------------------------------------------------------->
     <div id="group2" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
             <div class="c_banner_bg"></div>
@@ -40,6 +69,8 @@
             </div>
         </div>
     </div>
+
+    <!--CONTENT---------------------------------------------------------------------------------------------->
     <div id="group3" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
             <div class="title">Base Layer</div>
