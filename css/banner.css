@@ -42,8 +42,16 @@ h2 {
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-
 }
+
+.c_banner_bg {
+    height: 80vh;
+    width: 100%;
+    transform: skewY(-5deg);
+}
+
+/*--COLORS---*/
+
 .c_banner_headline {
     color: white;
 }
@@ -53,25 +61,20 @@ h2 {
     color: white;
 }
 
-.c_banner_bg {
-    height: 80vh;
-    width: 100%;
-    transform: skewY(-5deg);
 
+
+#p-home #group2 .c_banner_bg{
+    background: #1e88e5;
 }
 
-#home .c_banner_bg {
-    background-color: #1e88e5;
+#p-work #group2 .c_banner_bg{
+    background: #07BE64;
 }
 
-#work .c_banner_bg {
-    background-color: #07BE64;
+#p-about #group2 .c_banner_bg{
+    background: #7b1fa2;
 }
 
-#about .c_banner_bg {
-    background-color: #7b1fa2;
-}
-
-#process .c_banner_bg {
-    background-color: #D50C81;
+#p-process #group2 .c_banner_bg{
+    background: #D50C81;
 }
