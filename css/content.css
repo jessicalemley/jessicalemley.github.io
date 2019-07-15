@@ -115,6 +115,10 @@ ul {
 }
 
 
+#skills img {
+    max-width: 120px;
+}
+
 /*--COLORS--*/
 body {
     background-color: white;
