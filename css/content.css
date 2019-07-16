@@ -112,11 +112,22 @@ blockquote {
 ul {
     padding: 0;
     list-style-type: none;
+    text-align: center;
+}
+#skills {
+    margin-top: 3em;
 }
 
+#skills h3 {
+    text-align: center;
+    margin-top: 1em;
+}
 
 #skills img {
     max-width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*--COLORS--*/
