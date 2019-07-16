@@ -50,6 +50,16 @@ h2 {
     transform: skewY(-5deg);
 }
 
+
+#banner img {
+    max-width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c_banner_icon {
+}
 /*--COLORS---*/
 
 .c_banner_headline {
