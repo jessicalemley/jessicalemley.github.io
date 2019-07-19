@@ -36,18 +36,35 @@ h2 {
     position: relative;
 }
 
+
+.c_banner_headline {
+    color: white;
+
+}
+
+.c_banner_para {
+    text-align: center;
+    color: white;
+}
+
+
 .c_banner_content {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 
+.c_banner_content h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 .c_banner_bg {
-    height: 80vh;
+    height: 90vh;
     width: 100%;
-    transform: skewY(-5deg);
+    transform: skewY(-8deg);
 }
 
 
@@ -58,8 +75,6 @@ h2 {
     margin-right: auto;
 }
 
-.c_banner_icon {
-}
 /*--COLORS---*/
 
 .c_banner_headline {
