@@ -32,19 +32,22 @@ body, h1, h2, h3, h4, h5, h6 {
     }
 }
 
-
 .c_hero {
     position: relative;
     height: 100vh;
 }
 
+
 .c_hero_headline {
+    text-align: center;
     position: absolute;
-    top: 50%;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+    top: 35%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 90%;
 }
+
 
 .c_hero_headline h1 {
     font-family: Montserrat, sans-serif;
@@ -56,27 +59,78 @@ body, h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
-@media (min-width: 43.75em) {
+.c_hero_image {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateZ(-300px) scale(.7) translateX(-50%);
+    transform: translateZ(-300px) scale(.7) translateX(calc(-50% / .7));
+    max-width: 90%;
+}
+
+@media screen and (min-width: 650px) {
     .c_hero_headline h1 {
         font-size: 4em;
-        line-height: 1.125;
     }
 }
 
-@media (min-width: 56.25em) {
+@media screen and (min-width: 550px) and (orientation: landscape) {
+    .c_hero_headline {
+        top: 50%;
+    }
+
+    .c_hero_image {
+        top: 15%;
+    }
+}
+
+
+@media screen and (min-width: 700px) {
     .c_hero_headline h1 {
         font-size: 5em;
-        line-height: 1.05;
     }
+
+
 }
 
-
-@media (min-width: 90em) {
-    .c_hero h1 {
+@media screen and (min-width: 900px) {
+    .c_hero_headline h1 {
         font-size: 6em;
     }
 }
 
+@media screen and (min-width: 1000px) {
+    .c_hero_headline h1 {
+        font-size: 7em;
+    }
+}
+
+@media screen and (min-width: 1000px) and (orientation: landscape) {
+    .c_hero_headline {
+        top: 50%;
+    }
+
+    .c_hero_image {
+        top: 15%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (orientation: landscape) {
+    .c_hero_headline h1{
+        font-size: 8em;
+    }
+
+    .c_hero_image {
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width: 1800px) and (orientation: landscape) {
+    .c_hero_headline h1{
+        font-size: 9em;
+    }
+}
+/*IMAGES*/
 
 
 /*COLORS*/
