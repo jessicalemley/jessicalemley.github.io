@@ -124,3 +124,9 @@ section + section {
         padding-top: 550px;
     }
 }
+
+@media screen and (min-width: 1400px) {
+    #group3 .parallax__layer--base {
+        padding-top: 700px;
+    }
+}
