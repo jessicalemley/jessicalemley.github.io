@@ -86,18 +86,6 @@ h2 {
     }
 }
 
-@media screen and (min-width: 1000px) and (orientation: landscape) {
-    .c_banner_content {
-        top: 40%;
-    }
-}
-
-@media screen and (min-width: 1300px) and (orientation: landscape) {
-    .c_banner_content {
-        top: 50%;
-    }
-}
-
 @media screen and (min-width: 1000px) {
 
     .c_banner_content h2 {
@@ -108,6 +96,27 @@ h2 {
         max-width: 100px;
     }
 }
+
+@media screen and (min-width: 1000px) and (orientation: landscape) {
+    .c_banner_content {
+        top: 40%;
+    }
+}
+
+@media screen and (min-width: 1300px) and (orientation: landscape) {
+    .c_banner_content {
+        top: 45%;
+    }
+}
+
+@media screen and (min-width: 2000px) and (orientation: landscape) {
+    .c_banner_content {
+        top: 50%;
+    }
+}
+
+
+
 
 
 /*--COLORS---*/
@@ -123,7 +132,7 @@ h2 {
 
 
 #p-home #group2 .c_banner_bg{
-    background: #1e88e5;
+    background: #304FFE;
 }
 
 #p-work #group2 .c_banner_bg{
