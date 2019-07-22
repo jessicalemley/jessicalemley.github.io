@@ -125,8 +125,15 @@ section + section {
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (orientation: landscape) and (min-width: 1800px) {
+    #group3 .parallax__layer--base {
+        padding-top: 600px;
+    }
+}
+
+@media screen and (orientation: landscape) and (min-width: 2000px) {
     #group3 .parallax__layer--base {
         padding-top: 700px;
     }
 }
+
