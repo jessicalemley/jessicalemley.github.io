@@ -92,6 +92,12 @@ h2 {
     }
 }
 
+@media screen and (min-width: 1300px) and (orientation: landscape) {
+    .c_banner_content {
+        top: 50%;
+    }
+}
+
 @media screen and (min-width: 1000px) {
 
     .c_banner_content h2 {
