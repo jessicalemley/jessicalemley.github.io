@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>banner_icon_home</title>
+    <desc>Created with Sketch.</desc>
+    <g id="banner_icon_home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M87,177.02448 L100.000002,194.899481 L113.000005,177.02448 L113.000042,11.9999975 C113.000042,7.02943475 108.970605,2.99999749 104.000043,2.99999749 L96.0000009,3 C91.0294373,3 87,7.02943725 87,12 L87,177.02448 Z" id="Rectangle" stroke="#FFFFFF" stroke-width="6"></path>
+        <path d="M4.71570122,52 L14.0729791,72 L4.71570122,92 L87,92 L87,52 L4.71570122,52 Z" id="Rectangle" stroke="#FFFFFF" stroke-width="6"></path>
+        <path d="M114.715701,98 L124.072979,118 L114.715701,138 L197,138 L197,98 L114.715701,98 Z" id="Rectangle-Copy" stroke="#FFFFFF" stroke-width="6" transform="translate(155.000000, 118.000000) scale(-1, 1) translate(-155.000000, -118.000000) "></path>
+        <text id="UX" font-family="Montserrat-ExtraBold, Montserrat" font-size="28" font-weight="600" fill="#FFFFFF">
+            <tspan x="25.818" y="82">UX</tspan>
+        </text>
+        <text id="UI" font-family="Montserrat-ExtraBold, Montserrat" font-size="28" font-weight="600" fill="#FFFFFF">
+            <tspan x="137.25" y="128">UI</tspan>
+        </text>
+        <path d="M88.5,29.5 L112.056869,29.5" id="Line-14" stroke="#FFFFFF" stroke-width="4" stroke-linecap="square"></path>
+        <polyline id="Line-15" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" points="90 175.5 100 177 110 175.5"></polyline>
+        <path d="M90,21.5 L110,21.5" id="Line-16" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+    </g>
+</svg>

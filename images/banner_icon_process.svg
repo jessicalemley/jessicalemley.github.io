@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>banner_icon_process</title>
+    <desc>Created with Sketch.</desc>
+    <g id="banner_icon_process" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <path d="M7,132.442979 C36.15223,134.333358 53.5896096,132.492006 59.3121387,126.918922 C85.2819294,101.627342 71.1916882,65.2820758 57,65.2820758 C50.9665614,65.2820758 42.2230414,77.8060687 40.2369942,91.4486616 C38.3429368,104.459357 42.8708633,118.401757 50.6416185,126.918922 C55.2788388,132.001565 89.8872465,142.416564 127.5,128.282076 C134.83809,125.524496 141.468997,111.095183 141.5,96.2820758 C141.532371,80.8152881 134.651116,65 127.5,65 C120.050163,65 112.510764,78.7049254 110.5,93.2820758 C108.732065,106.098828 111.605503,119.430054 117.5,126.918922 C120.121428,130.249407 139.14398,135.778533 162,131 C170.666667,129.188051 178.666667,126.188051 186,122" id="Line-13" stroke="#FFFFFF" stroke-width="8"></path>
+        <polyline id="Line" stroke="#FFFFFF" stroke-width="8" transform="translate(187.478545, 120.936261) rotate(-36.000000) translate(-187.478545, -120.936261) " points="181.317632 108.186261 193.639458 119.85957 181.317632 133.686261"></polyline>
+    </g>
+</svg>
