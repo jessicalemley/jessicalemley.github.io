@@ -92,13 +92,14 @@ body, h1, h2, h3, h4, h5, h6 {
     }
 }
 
-@media screen and (min-width: 700px) and (orientation: portrait) {
-
-}
 
 @media screen and (min-width: 900px) {
     .c_hero_headline h1 {
         font-size: 7em;
+    }
+
+    #p-home .c_hero_headline h1 {
+        font-size: 6em;
     }
 }
 
@@ -106,11 +107,18 @@ body, h1, h2, h3, h4, h5, h6 {
     .c_hero_headline h1 {
         font-size: 9em;
     }
+
+
+
 }
 
 @media screen and (min-width: 1000px) and (orientation: landscape) {
     .c_hero_headline {
         top: 50%;
+    }
+
+    #p-home .c_hero_headline h1 {
+        font-size: 5.5em;
     }
 
     .c_hero_image {
@@ -119,7 +127,7 @@ body, h1, h2, h3, h4, h5, h6 {
     }
 
     #p-about .c_hero_image {
-        top: 15%;
+        top: 10%;
     }
 }
 
@@ -128,9 +136,10 @@ body, h1, h2, h3, h4, h5, h6 {
 @media screen and (min-width: 1200px) and (orientation: landscape) {
 
     #p-home .c_hero_headline h1 {
-        font-size: 9em;
+        font-size: 6em;
     }
-    .c_hero_headline h1{
+
+    .c_hero_headline h1 {
         font-size: 10em;
     }
 
@@ -143,6 +152,9 @@ body, h1, h2, h3, h4, h5, h6 {
 @media screen and (min-width: 1800px) and (orientation: landscape) {
     .c_hero_headline h1{
         font-size: 15em;
+    }
+    #p-home .c_hero_headline h1 {
+        font-size: 9em;
     }
 
     #p-about .c_hero_image {
