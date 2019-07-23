@@ -7,30 +7,33 @@ body, h1, h2, h3, h4, h5, h6 {
     font-size-adjust: 0.5;
 }
 
-h2 {
-    font-size: 1.625em;
-    /* 1.625x body copy size = 26px */
-    line-height: 1.15384615;
-    /* 30px / 26px */
+
+.c_banner_headline h3 {
+    font-size: 1.375em;
+    /* 1.375x body copy size = 22px */
+    line-height: 1.13636364;
+    /* 25px / 22px */
     font-weight: 800;
     text-align: center;
 }
 
 @media (min-width: 43.75em) {
-    h2 {
-        font-size: 2em;
-        /* 2x body copy size = 32px */
+    .c_banner_headline h3 {
+        font-size: 1.5em;
+        /* 1.5x body copy size = 24px */
         line-height: 1.25;
     }
 }
 
 @media (min-width: 56.25em) {
-    h2 {
-        font-size: 2.25em;
-        /* 2.25x body copy size = 36px */
+    .c_banner_headline h3 {
+        font-size: 1.75em;
+        /* 1.75x body copy size = 28px */
         line-height: 1.25;
     }
 }
+
+
 
 .c_banner {
     position: relative;
@@ -72,7 +75,7 @@ h2 {
 }
 
 @media screen and (orientation: portrait){
-    .c_banner_content h2 {
+    .c_banner_content h3 {
         margin-top: 1em;
         margin-bottom: .5em;
     }
@@ -88,7 +91,7 @@ h2 {
 
 @media screen and (min-width: 1000px) {
 
-    .c_banner_content h2 {
+    .c_banner_content h3 {
         margin-top: 1em;
         margin-bottom: .5em;
     }
