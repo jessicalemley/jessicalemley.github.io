@@ -27,21 +27,21 @@
     font-size: 2em;
 }
 
-.c_step_wrap:nth-child(odd) {
+.c_step_wrap:nth-child(even) {
     border-right: 3px solid;
 }
 
-.c_step_wrap:nth-child(odd):before {
+.c_step_wrap:nth-child(even):before {
     left: 100%;
     margin-left: -20px;
 
 }
 
-.c_step_wrap:nth-child(even) {
+.c_step_wrap:nth-child(odd) {
     border-left: 3px solid;
 }
 
-.c_step_wrap:nth-child(even):before {
+.c_step_wrap:nth-child(odd):before {
     right: 100%;
     margin-right: -20px;
 }
