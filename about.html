@@ -14,246 +14,255 @@
           href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
           integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
 
-    <!-- Hero CSS -->
+    <!--HERO CSS-->
     <link rel="stylesheet" href="css/hero.css">
 
-    <!-- Banner CSS -->
+    <!--BANNER CSS-->
     <link rel="stylesheet" href="css/banner.css">
 
-    <!-- Content CSS -->
+    <!--CONTENT CSS-->
     <link rel="stylesheet" href="css/content.css">
 
-    <title>about</title>
+    <!--TIMELINE CSS-->
+    <link rel="stylesheet" href="css/timeline.css">
+
+    <!--Parallax CSS -->
+    <link rel="stylesheet" href="css/parallax.css">
+
+    <title>Jessica Lemley</title>
 </head>
 
-<header>
-    <nav class="nav justify-content-center" style="background-color: #6a1b9a">
-        <a class="nav-link active" href="index.html">home</a>
-        <a class="nav-link" href="work.html">work</a>
-        <a class="nav-link" href="about.html">about</a>
-        <a class="nav-link" href="process.html">process</a>
-        <a class="nav-link" href="#">contact</a>
-    </nav>
-</header>
+<body id="p-about">
 
-<body id="about">
+<div class="parallax">
 
-<!--Hero-->
-<div class="c_hero">
-    <div class="c_hero_headline container">
-        <h1>meet jess</h1>
-    </div>
-    <div class="c_hero_image container">
-        <img src="#" alt="jessica">
-    </div>
-</div>
+    <!--HERO-------------------------------------------------------------------------------------------------->
+    <div id="group1" class="parallax__group">
+        <div class="parallax__layer parallax__layer--base">
 
-<!--Banner-->
-<div class="c_banner">
-    <div class="c_banner_bg"></div>
-    <div class="c_banner_content container">
-        <div class="c_banner_icon"></div>
-        <div class="c_banner_headline">
-            <h2>Designer, Strategist, Problem-solver.</h2>
+            <header>
+                <nav class="nav justify-content-center" style="background-color: #450070">
+                    <a class="nav-link active" href="index.html">home</a>
+                    <a class="nav-link" href="work.html">work</a>
+                    <a class="nav-link" href="about.html">about</a>
+                    <a class="nav-link" href="process.html">process</a>
+                    <a class="nav-link" href="#">contact</a>
+                </nav>
+            </header>
+
+            <div class="c_hero_headline">
+                <h1>meet jess</h1>
+            </div>
+
         </div>
-        <div class="c_banner_para">
-            <p>I help companies create relevant, enjoyable experiences for their users.</p>
+        <div class="parallax__layer parallax__layer--back">
+            <img class="c_hero_image" src="images/hero_about.png" alt="test image">
         </div>
     </div>
-</div>
 
-<!--Content-->
-<div class="c_content container">
-    <div class="c_content_headline">
-        <h2>Some of what I bring to the table</h2>
-    </div>
-    <div class="c_content_section">
-        <div class="row">
-            <div class="col-xs-10 col-sm-6 col-lg-3">
-                <img src="css/images/soft_skills_icon.png" alt="soft skills">
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Cross-functional Collaboration</li>
-                    <li>Public Speaking</li>
-                    <li>Presentation Building</li>
-                    <li>Storytelling</li>
-                    <li>User Empathy</li>
-                    <li>Consultative Sales</li>
-                </ul>
-            </div>
-            <div class="col-xs-10 col-sm-6 col-lg-3">
-                <img src="css/images/ux_icon.png" alt="UX">
-                <h3>UX</h3>
-                <ul>
-                    <li>User and Market Research</li>
-                    <li>User Testing and Interviewing</li>
-                    <li>UX Copy Writing</li>
-                    <li>Wireframing and Prototyping</li>
-                    <li>Interaction design</li>
-                    <li>InVision</li>
-                    <li>Analytics</li>
-                </ul>
-            </div>
-            <div class="col-xs-10 col-sm-6 col-lg-3">
-                <img src="css/images/ui_icon.png" alt="UI design">
-                <h3>UI Design</h3>
-                <ul>
-                    <li>Visual Communication</li>
-                    <li>Information Architecture</li>
-                    <li>Photoshop</li>
-                    <li>Sketch</li>
-                    <li>Omnigraffle</li>
-                    <li>Zeplin</li>
-                </ul>
-            </div>
-            <div class="col-xs-10 col-sm-6 col-lg-3">
-                <img src="css/images/coding_icon.png" alt="coding">
-                <h3>Coding</h3>
-                <ul>
-                    <li>Release Planning</li>
-                    <li>Responsive Design</li>
-                    <li>Html5</li>
-                    <li>CSS3</li>
-                    <li>Bootstrap</li>
-                </ul>
-
+    <!--BANNER---------------------------------------------------------------------------------------------->
+    <div id="group2" class="parallax__group">
+        <div class="parallax__layer parallax__layer--base">
+            <div class="c_banner_bg"></div>
+            <div id="banner" class="c_banner_content container">
+                <div class="c_banner_icon">
+                    <img src="images/banner_icon_about.svg" alt="about icon">
+                </div>
+                <div class="c_banner_headline">
+                    <h2>Designer, Strategist, Problem-solver.</h2>
+                </div>
+                <div class="c_banner_para">
+                    <p>I help companies create relevant, enjoyable experiences for their users.</p>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="c_content_headline">
-        <h2>My journey into UX/UI design</h2>
-    </div>
+    <!--CONTENT---------------------------------------------------------------------------------------------->
+    <div id="group3" class="parallax__group">
+        <div class="parallax__layer parallax__layer--base">
+            <section class="container">
+                <h2>Some of what I bring to the table</h2>
+                <div id="skills" class="row">
+                    <div class="col-xs-10 col-sm-6 col-lg-3">
+                        <img src="images/about_strategy.png" alt="soft skills">
+                        <h3>Strategy & Branding</h3>
+                        <ul>
+                            <li>Product Strategy</li>
+                            <li>Positioning</li>
+                            <li>Copy Writing</li>
+                            <li>Lean UX Practices</li>
+                            <li>Consultative Sales</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-10 col-sm-6 col-lg-3">
+                        <img src="images/about_UX.png" alt="UX">
+                        <h3>UX</h3>
+                        <ul>
+                            <li>User and Market Research</li>
+                            <li>Persona Building</li>
+                            <li>User Testing and Interviewing</li>
+                            <li>Information Architecture</li>
+                            <li>Interaction design</li>
+                            <li>Omnigraffle</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-10 col-sm-6 col-lg-3">
+                        <img src="images/about_UI.png" alt="UI design">
+                        <h3>UI Design</h3>
+                        <ul>
+                            <li>Wireframing and Prototyping</li>
+                            <li>Styleguide Development</li>
+                            <li>Design Asset Creation</li>
+                            <li>Invision</li>
+                            <li>Photoshop</li>
+                            <li>Sketch</li>
+                            <li>Zeplin</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-10 col-sm-6 col-lg-3">
+                        <img src="images/about_development.png" alt="coding">
+                        <h3>Development</h3>
+                        <ul>
+                            <li>Release Planning</li>
+                            <li>Cross-functional Pairing</li>
+                            <li>Responsive Web</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>git</li>
+                        </ul>
 
-    <div class="c_content_section">
-        <div class="graph">
-
-            <div class="timeline-block timeline-block-left">
-                <div class="marker"></div>
-                <div class="timeline-content">
-                    <h3>2006-2012</h3>
-                    <span>Psychological Operations Specialist, US Army Reserves</span>
-                    <p>I've always been fascinated with how psychology influences our behaviors. Joining
-                        the
-                        Army
-                        as a
-                        Psychological Operations Specialist gave me an opportunity to explore that
-                        concept
-                        in a
-                        practical
-                        way while serving my country. While deployed to Iraq, I learned how design,
-                        messaging,
-                        and
-                        reshaping experiences can encourage positive behavioral change and empower
-                        people
-                        to
-                        improve
-                        their
-                        communities.</p>
+                    </div>
                 </div>
-            </div>
+            </section>
+            <section class="container">
+                <h2>My journey into UX/UI design</h2>
+                <div class="graph">
 
-            <div class="timeline-block timeline-block-right">
-                <div class="marker"></div>
-                <div class="timeline-content">
-                    <h3>2014</h3>
-                    <span>Bachelor of Business Administration, Entrepreneurship - Kent State University</span>
-                    <p>In college, I became enchanted with the idea of building products and services
-                        that
-                        people
-                        would
-                        love. As an entrepreneurship major, I learned what it takes to turn an untested
-                        idea
-                        into a
-                        viable
-                        business. Through various successes and failures, I came to understand how
-                        critical
-                        it
-                        is to
-                        incorporate constant customer feedback into all facets of the product
-                        development
-                        process.</p>
+                    <div class="timeline-block timeline-block-left">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>2006-2012</h3>
+                            <span>Psychological Operations Specialist, US Army Reserves</span>
+                            <p>I've always been fascinated with how psychology influences our behaviors. Joining
+                                the
+                                Army
+                                as a
+                                Psychological Operations Specialist gave me an opportunity to explore that
+                                concept
+                                in a
+                                practical
+                                way while serving my country. While deployed to Iraq, I learned how design,
+                                messaging,
+                                and
+                                reshaping experiences can encourage positive behavioral change and empower
+                                people
+                                to
+                                improve
+                                their
+                                communities.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block timeline-block-right">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>2014</h3>
+                            <span>Bachelor of Business Administration, Entrepreneurship - Kent State University</span>
+                            <p>In college, I became enchanted with the idea of building products and services
+                                that
+                                people
+                                would
+                                love. As an entrepreneurship major, I learned what it takes to turn an untested
+                                idea
+                                into a
+                                viable
+                                business. Through various successes and failures, I came to understand how
+                                critical
+                                it
+                                is to
+                                incorporate constant customer feedback into all facets of the product
+                                development
+                                process.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block timeline-block-left">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>2010-2015</h3>
+                            <span>Marketing & Graphic Design</span>
+                            <p>I cut my teeth in marketing and design while working with tech startups in a wide
+                                range
+                                of
+                                fields.
+                                My work often required wearing multiple hats, which gave me
+                                first-hand
+                                exposure
+                                to
+                                the
+                                common challenges companies undertake when bringing products
+                                into
+                                the
+                                world. I gained a renewed appreciation for the exponential benefits of listening
+                                to
+                                users
+                                and
+                                stakeholders.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block timeline-block-right">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>2015-2018</h3>
+                            <span>Marketing, Sales, Process Improvement</span>
+                            <p>Working for a Lean-Agile tech consultancy, I got the chance to dive into the
+                                kinds
+                                of practices that can make or break companies and products. Using Lean
+                                management
+                                and
+                                user-centered design principles, I revamped the consultancy’s marketing, sales
+                                process,
+                                and
+                                a
+                                few of their failing product offerings. I even got the opportunity to consult
+                                directly
+                                with
+                                some
+                                of our customers. It was then that I realized I could do more to help companies
+                                succeed
+                                as a
+                                UX/UI
+                                designer than I could as a marketing manager.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="timeline-block timeline-block-left">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>2018-Present</h3>
+                            <span>User Experience/ UI Designer</span>
+                            <p>Since then, I have been honing my UX and UI craft through classes and by
+                                practicing
+                                in the real world (you can check out some of my work on the home page). My
+                                pragmatic
+                                problem-solving skills, creative abilities, and background in helping bring
+                                products
+                                to
+                                life,
+                                give me a unique perspective in a world where a great experience is critical to
+                                market
+                                success.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="timeline-block timeline-block-left">
-                <div class="marker"></div>
-                <div class="timeline-content">
-                    <h3>2010-2015</h3>
-                    <span>Marketing & Graphic Design</span>
-                    <p>I cut my teeth in marketing and design while working with tech startups in a wide
-                        range
-                        of
-                        fields.
-                        My work often required wearing multiple hats, which gave me
-                        first-hand
-                        exposure
-                        to
-                        the
-                        common challenges companies undertake when bringing products
-                        into
-                        the
-                        world. I gained a renewed appreciation for the exponential benefits of listening
-                        to
-                        users
-                        and
-                        stakeholders.</p>
-                </div>
-            </div>
-
-            <div class="timeline-block timeline-block-right">
-                <div class="marker"></div>
-                <div class="timeline-content">
-                    <h3>2015-2018</h3>
-                    <span>Marketing, Sales, Process Improvement</span>
-                    <p>Working for a Lean-Agile tech consultancy, I got the chance to dive into the
-                        kinds
-                        of practices that can make or break companies and products. Using Lean
-                        management
-                        and
-                        user-centered design principles, I revamped the consultancy’s marketing, sales
-                        process,
-                        and
-                        a
-                        few of their failing product offerings. I even got the opportunity to consult
-                        directly
-                        with
-                        some
-                        of our customers. It was then that I realized I could do more to help companies
-                        succeed
-                        as a
-                        UX/UI
-                        designer than I could as a marketing manager.</p>
-
-                </div>
-            </div>
-
-            <div class="timeline-block timeline-block-left">
-                <div class="marker"></div>
-                <div class="timeline-content">
-                    <h3>2018-Present</h3>
-                    <span>User Experience/ UI Designer</span>
-                    <p>Since then, I have been honing my UX and UI craft through classes and by
-                        practicing
-                        in the real world (you can check out some of my work on the home page). My
-                        pragmatic
-                        problem-solving skills, creative abilities, and background in helping bring
-                        products
-                        to
-                        life,
-                        give me a unique perspective in a world where a great experience is critical to
-                        market
-                        success.</p>
-                </div>
-            </div>
+            </section>
         </div>
     </div>
+
 </div>
 
 </body>
 
-<!--Footer-->
-<footer>
-    <div class="footer_section"></div>
-</footer>
-</html>

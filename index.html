@@ -14,68 +14,77 @@
           href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
           integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
 
-    <!-- Hero CSS -->
+   <!--HERO CSS-->
     <link rel="stylesheet" href="css/hero.css">
 
-    <!-- Banner CSS -->
+    <!--BANNER CSS-->
     <link rel="stylesheet" href="css/banner.css">
+
+    <!--CONTENT CSS-->
+    <link rel="stylesheet" href="css/content.css">
+
+    <!--Parallax CSS -->
+    <link rel="stylesheet" href="css/parallax.css">
 
     <title>Jessica Lemley</title>
 </head>
 
-<header>
-    <nav class="nav justify-content-center" style="background-color: #1976d2">
-        <a class="nav-link active" href="index.html">home</a>
-        <a class="nav-link" href="work.html">work</a>
-        <a class="nav-link" href="about.html">about</a>
-        <a class="nav-link" href="process.html">process</a>
-        <a class="nav-link" href="#">contact</a>
-    </nav>
-</header>
+<body id="p-home">
 
-<body id="home">
+<div class="parallax">
 
+   <!--HERO-------------------------------------------------------------------------------------------------->
+    <div id="group1" class="parallax__group">
+        <div class="parallax__layer parallax__layer--base">
 
-<!--Hero-->
-<div class="c_hero">
-    <div class="c_hero_headline container">
-        <h1>better by design</h1>
-    </div>
-    <div class="c_hero_image container">
-        <img src="#" alt="crypto display">
-    </div>
-</div>
+            <header>
+                <nav class="nav justify-content-center" style="background-color: #112DD0">
+                    <a class="nav-link active" href="index.html">home</a>
+                    <a class="nav-link" href="work.html">work</a>
+                    <a class="nav-link" href="about.html">about</a>
+                    <a class="nav-link" href="process.html">process</a>
+                    <a class="nav-link" href="#">contact</a>
+                </nav>
+            </header>
 
-<!--Banner-->
+            <div class="c_hero_headline">
+                <h1>better by design</h1>
+            </div>
 
-
-
-<div class="c_banner">
-    <div class="c_banner_bg"></div>
-    <div class="c_banner_content container">
-        <div class="c_banner_icon"></div>
-        <div class="c_banner_headline">
-            <h2>UX/UI Designer</h2>
         </div>
-        <div class="c_banner_para">
-            <p>I make life more user-friendly by turning tedious tasks into engaging, meaningful experiences.</p>
+        <div class="parallax__layer parallax__layer--back">
+            <img class="c_hero_image" src="images/hero_home.png" alt="test image">
         </div>
     </div>
-</div>
 
-
-<!--Content-->
-<div class="c_content">
-    <div class="c_content_headline container">
-        <h1>Recent Work</h1>
+    <!--BANNER---------------------------------------------------------------------------------------------->
+    <div id="group2" class="parallax__group">
+        <div class="parallax__layer parallax__layer--base">
+            <div class="c_banner_bg"></div>
+            <div id="banner" class="c_banner_content container">
+                <div class="c_banner_icon">
+                    <img src="images/banner_icon_home.svg" alt="ux ui icon">
+                </div>
+                <div class="c_banner_headline">
+                    <h2>UX/UI Designer</h2>
+                </div>
+                <div class="c_banner_para">
+                    <p>I make life more user-friendly by turning tedious tasks into engaging, meaningful experiences.</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="c_content_section container"></div>
+
+    <!--CONTENT---------------------------------------------------------------------------------------------->
+    <div id="group3" class="parallax__group">
+        <div class="parallax__layer parallax__layer--base">
+            <div class="c_content_headline">
+            <h2>recent work</h2>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 </body>
 
-<!--Footer-->
-<footer>
-    <div class="footer_section"></div>
-</footer>
-</html>
