@@ -45,11 +45,14 @@ ul {
     }
 }
 
-
+.c_case_overview {
+    margin-bottom: 2rem;
+}
 
 .c_case_content img {
     max-width: 100%;
-    margin-bottom: 3rem;
+    margin: 2rem auto 3rem auto;
+    display: block;
 }
 
 .gif {
@@ -63,7 +66,7 @@ ul {
     /* 45px / 36px */
     font-weight: 800;
     margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 @media (min-width: 43.75em) {
@@ -93,6 +96,7 @@ ul {
     /* 30px / 26px */
     font-weight: 700;
     text-align: left;
+    margin-top: 2rem;
 }
 
 @media (min-width: 43.75em) {
@@ -111,6 +115,13 @@ ul {
     }
 }
 
+.c_case_content h3 {
+    margin-top: 2rem;
+}
 
+.c_case_content h4 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
 
 
