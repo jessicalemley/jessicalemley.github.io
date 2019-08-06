@@ -52,6 +52,10 @@ ul {
     margin-bottom: 3rem;
 }
 
+.gif {
+    height: 500px;
+}
+
 .c_case_overview h1 {
     font-size: 2em;
     /* 2x body copy size = 32px */
