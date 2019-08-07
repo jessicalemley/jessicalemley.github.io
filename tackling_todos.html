@@ -71,9 +71,10 @@
     <h2>Problem</h2>
     <p>Though there are hundreds of task managers out in the market, most are geared towards either professional project management or are little more than digital checklists. These can be cumbersome to use and fail to account for the fact that life is multifaceted. More often than not, users download these apps and quickly abandon them.</p>
     <h2>Discover</h2>
-    <p>I analyzed the the task management activities of 5 users aged 24-50 for a period of 4 weeks and
+    <p>over a period fof four weeks, I analyzed the the task management activities of 5 users aged 24-50 who worked in an environment of constantly shifting priorities. I
         discovered that in every case, they used a combination of paper lists and google calendars to
         manage their to-do’s. I gained a number of insights from my observations and created an affinity map to discover common themes and patterns.</p>
+    <img src="images/todo_affinitymap.png" alt="crypto dashboard">
     <h3>Common Problems</h3>
     <h4>Keeping Track</h4>
     <p>Keeping lists in notebooks alongside other notes and information gets cluttered. The more that is
@@ -88,7 +89,9 @@
         has ever tried to get to inbox zero knows, we tend to sacrifice life balance in the futile pursuit
         of getting everything “done.” This feeling is only exacerbated when our productivity is under
         scrutiny by supervisors.</p>
-    <img src="images/todo_affinitymap.png" alt="crypto dashboard">
+    <h4>Feeling "Overwhelmed"</h4>
+    <p>There was a consistent pattern of stress and feelings of being overwhelmed amongst the users, particularly the women. One common phrase I heard was "I need my own assistant." These comments generally came up when combing through their to-do lists and trying to plan out their day or week. </p>
+
 
     <h2>Define</h2>
     <h3>Personas</h3>
@@ -96,11 +99,11 @@
         in both their professional and personal lives, especially when they had families to care for. The
         men I spoke to
         tended to delegate their personal concerns to their significant others to manage. So, I focused my
-        primary user persona on millennial working mothers who are still building their careers.</p>
+        primary user persona on millennial working mothers who are building their careers.</p>
     <h3>Defining the Focus</h3>
     <p>Based on the results of my research, it looked like my users needed some sort of personal assistant close at hand that would actively help them "keep-it-together." I decided a mobile app that could organize, prioritize, and schedule to-do’s would help bring sanity to their overloaded lives.</p>
     <h2>Ideate</h2>
-    <p>Now it was time to come up with a way to solve the problem. In addition to my user behavior observations, I researched advice from time-management experts and life coaches regarding task-management best practices. Overall, their consistent guidance was to break goals down into small tasks with deadlines, sort by priority, schedule time to complete them, and celebrate wins.</p>
+    <p>Now it was time to design a solution. In addition to my user behavior observations, I researched advice from time-management experts and life coaches regarding task-management best practices. Overall, their consistent guidance was to break goals down into small tasks with deadlines, sort by priority, schedule time to complete them, and celebrate wins.</p>
     <h3>Task Flow</h3>
     <p>I broke out a three-step process that covered the areas of greatest frustration for my primary persona: planning to-do's, managing them, and executing on them.</p>
 
@@ -109,6 +112,9 @@
     <img src="images/todo_sketches.png" alt="crypto dashboard">
     <h4>Personal Time and Task Management Assistant Concept</h4>
     <p>The idea that seemed to solve both the practical and emotional challenges of the user was a mobile app that could allow users to quickly create and manage their to-do lists, then automatically schedule time for tasks to be completed based on their calendar availability and the urgency of the task.</p>
+
+    <h4>Prioritization</h4>
+    <p>There were a number of features I considered including in the app, such as a metrics screen, task timer, and task completion log. However, I determined that these were unnecessary to validate the main hypothesis that an automated to-do scheduler would alleviate the primary complaints of users. So, they were pushed back until further research could validate their inclusion.</p>
 
     <h2>Prototype</h2>
     <p>I created a few quick prototypes using Sketch to represent key interactions and mapped out the structure and flow of the application.</p>
@@ -121,7 +127,7 @@
     <p>The app then transitions to a guided tour so you can set the preferences it needs to organize your to-do's. You'll set your work hours, sync your calendars, and set notification preferences.</p>
     <img class="gif" src="images/case_todo_onboard2.gif" alt="todo app guided onboarding gif">
     <h4>Creating a List</h4>
-    <p>After on-boarding, you are taken to the page where all of your lists will be displayed. A "+" button triggers the creation of a new list. You name your list "September Trade Show" and tag it under the "work" category. This tells the app to schedule this list's items only during your set work hours.</p>
+    <p>After on-boarding, you are taken to the page where all of your lists will be displayed. A "+" button triggers the creation of a new list. let's say you name your list "September Trade Show" and tag it under the "work" category. This tells the app to schedule this list's items only during your set work hours.</p>
 
     <p>In the gif below, you can see what it would look like if you had multiple lists, each with color-coded progress bars.</p>
     <img class="gif" src="images/case_todo_add_list.gif" alt="todo app add list">
@@ -134,11 +140,12 @@
 
     <h4>Completing a Task</h4>
     <p>When it's time to start a to-do, your phone will send you a notification which takes you to your schedule. Here, tasks are displayed in a scrolling planner alongside existing events synched from your personal calendar account.</p>
-    <p> Here, you can see that it's time to work on a report summary. By opening a task, you can mark it complete or hit snooze to push it to a later time. As tasks are completed, they become faded on the schedule and crossed off your to-do lists</p>
+    <p> Here, you can see that it's time to work on a report summary. Opening a task allows you to edit the details, mark it complete, or hit snooze to push it to a later time. As tasks are completed, they become faded on the schedule and crossed off your to-do lists</p>
+
     <img class="gif" src="images/case_todo_schedule.gif" alt="todo app schedule">
 
     <h2>Test</h2>
-    <p>Once the prototype was built, I tested in on five people. I put together a test scenario, similar to the one above, and observed people as they worked through it. I found that people liked how they could quickly build lists, even as requests came up in meetings, and found that not having to figure out when they were going to get it all done was very helpful. They felt that having a virtual assistant build a schedule rather than a checklist freed them from feeling like everything had to be done "right now." As one user put it, "Now that I can see when it's all going to get done, I feel like I can finally relax at the end of the day."</p>
+    <p>Once the prototype was built, I tested it on five people. I put together a test scenario, similar to the one above, and observed people as they worked through it. I found that people liked how they could quickly build lists (even as sporadic requests came up in meetings) and felt that not having to figure out when they were going to get it all done was very helpful. They reported that having a virtual assistant build a schedule rather than a checklist freed them from feeling like everything had to be done "right now." As one user put it, "Knowing that it's all going to get done - being able to see it - might actually let me relax at the end of the day."</p>
 </div>
 </body>
 </html>
