@@ -1,8 +1,39 @@
 
 /*TYPOGRAPHY*/
 
-.nav-link {
+.navbar .nav-link {
     color: white;
+    font-size: 1rem;
+}
+
+
+#p-work .navbar { box-shadow: none !important;
+    background-color: #009A43;
+}
+
+.btn { box-shadow: none !important; }
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-nav {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#p-work .collapse.show {
+    background-color: #009A43;
+    min-height: 100vh;
+}
+
+
+@media screen and (min-width: 568px){
+    #contact.nav-link {
+        display: inline-block;
+        float: right;
+    }
 }
 
 body {
