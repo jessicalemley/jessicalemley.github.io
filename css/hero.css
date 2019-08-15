@@ -1,15 +1,5 @@
-
-/*TYPOGRAPHY*/
-
-.navbar .nav-link {
-    color: white;
-    font-size: 1rem;
-}
-
-
-#p-work .navbar { box-shadow: none !important;
-    background-color: #009A43;
-}
+.navbar { box-shadow: none !important;
+ }
 
 .btn { box-shadow: none !important; }
 
@@ -22,9 +12,23 @@
     margin-left: auto;
 }
 
+#p-home .collapse.show {
+    background-color: #112DD0;
+    min-height: 100vh;
+}
 
 #p-work .collapse.show {
     background-color: #009A43;
+    min-height: 100vh;
+}
+
+#p-about .collapse.show {
+    background-color: #450070;
+    min-height: 100vh;
+}
+
+#p-process .collapse.show {
+    background-color: #D50C81;
     min-height: 100vh;
 }
 
@@ -34,6 +38,14 @@
         display: inline-block;
         float: right;
     }
+}
+
+
+/*TYPOGRAPHY*/
+
+.navbar .nav-link {
+    color: white;
+    font-size: 1rem;
 }
 
 body {
@@ -68,12 +80,24 @@ body, h1, h2, h3, h4, h5, h6 {
     height: 100vh;
 }
 
+.responsive{
+    max-width:50%;
+    max-height:50%;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 .c_hero_headline {
     text-align: center;
     position: absolute;
     left: 50%;
-    top: 35%;
+    top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     width: 90%;
@@ -90,10 +114,9 @@ body, h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+
 .c_hero_image {
-    position: absolute;
-    left: 50%;
-    top: 45%;
+
     -webkit-transform: translateZ(-300px) scale(.7) translateX(-50%);
     transform: translateZ(-300px) scale(.7) translateX(calc(-50% / .7));
     max-width: 90%;
@@ -153,13 +176,10 @@ body, h1, h2, h3, h4, h5, h6 {
     }
 
     .c_hero_image {
-        top: 15%;
-        max-width: 70%;
-    }
+          top: 15%;
+          max-width: 70%;
+      }
 
-    #p-about .c_hero_image {
-        top: 10%;
-    }
 }
 
 
@@ -174,9 +194,6 @@ body, h1, h2, h3, h4, h5, h6 {
         font-size: 10em;
     }
 
-    #p-about .c_hero_image {
-        top: 10%;
-    }
 
 }
 
@@ -186,10 +203,6 @@ body, h1, h2, h3, h4, h5, h6 {
     }
     #p-home .c_hero_headline h1 {
         font-size: 9em;
-    }
-
-    #p-about .c_hero_image {
-        top: 15%;
     }
 
 }
