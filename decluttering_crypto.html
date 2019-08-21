@@ -33,7 +33,7 @@
     </nav>
 </header>
 
-<body>
+<body id="case_study">
 
 <div class="c_case_overview container">
     <h1>Decluttering Crypto</h1>
@@ -57,7 +57,8 @@
             </ul>
         </div>
         <div class="col-sm-10 col-lg-8">
-            <blockquote>My challenge was to give cryptocurrency users a simpler way to monitor their favorite markets, trading activity, and personal portfolio data in real-time.</blockquote>
+            <blockquote>My challenge was to give members of a cryptocurrency fund a simple way to monitor the
+                performance of an automated trading bot and the growth of their portfolios.</blockquote>
         </div>
     </div>
 
@@ -65,31 +66,89 @@
 </div>
 
 <div class="c_case_content container">
-    <img src="images/dashboard_display_image.png" alt="crypto dashboard">
+    <img src="images/case_crypto_overview.png" alt="crypto dashboard">
     <h2>Challenge</h2>
-    <p>My client was an android software developer and cryptocurrency trader who needed a way to passively monitor trading bot he was building. </p>
+    <p>My client was an android software developer and cryptocurrency trader who was building an automated trading bot
+        that would manage an investment fund for himself and a small group of users. The goal was to find a way for fund
+        members keep an eye on the bot's performance without revealing the formula it used to make decisions.</p>
     <h2>Discover</h2>
-    <p>We started by documenting his trading strategy, intended users (friends and family), challenges with existing solutions, and his goals for the bot and dashboard.</p>
-    <img src="images/test_image.png" alt="crypto dashboard">
+    <p>We started by documenting his intended users (friends, family, and coworkers), challenges with existing
+        solutions, and his goals for the bot and dashboard.</p>
+    <p>Given that the solution was intended to be a privately used application, we had a relatively small pool of user
+        types to consider. Still, we put together some interview questions and discussed the idea of the bot with his
+        intended customers to gauge interest, gather feedback, and test our initial hypotheses around the value prop.</p>
+    <p>We also looked at competitors such as Tradeview, Coinbase, and traditional investment dashboards to learn how
+        people used these tools and what their pain points were. Then we created an affinity diagram to discover common
+        themes and patterns.<p>
+    <h3>Common Insights</h3>
+
+    <p>Avid crypto users :</p>
+    <ul>
+        <li>Anxiety over market volatility and its impact on personal wealth.</li>
+        <li>Defiant optimism about the future of Bitcoin as a valuable commodity and tansactional medium.</li>
+        <li>Fear of "missing out" on positive price swings.</li>
+        <li>With a few notable exceptions, users had between $10,000 and $50,000 invested in cryptocurrency.</li>
+        <li>Obsessively monitored exchange accounts and market data.</li>
+        <li>Irritated with low returns and high fees with existing fund managers.</li>
+        <li>Common buzzwords/phrases: "FUD" "HODL" "To the moon!" "Now's the time to buy..."</li>
+    </ul>
+
+    <p>Non-crypto users:</p>
+    <ul>
+        <li>General dismissive or distrustful feelings toward cryptocurrency (some eye rolls were recorded).</li>
+        <li>Readily admitted they were not sure what it is or how it works.</li>
+        <li>Concerns that it is a scam or a fad.</li>
+        <li>Uncertain how secure it is.</li>
+        <li>Turned off by complicated purchasing, trading, and analytics.</li>
+        <li>Afraid of getting "hacked."</li>
+    </ul>
+
+
     <h2>Define</h2>
     <h3>Personas</h3>
-    <p>Given that the solution was intended to be a privately held application, we had a small pool of user types to consider. We defined two personas, a primary and a secondary: Michael, an avid crypto user who obsessively watches a number of market indicators looking for buy/sell opportunities, and Susan, a non-crypto user who is looking for a "set-it-and-forget-it" way to diversify her retirement portfolio without a lot of work and worry.</p>
-    <img src="images/test_image.png" alt="crypto dashboard">
+    <p> From there we were able to come up with two personas:
+        (Primary) an avid crypto user who regularly purchases Bitcoin and obsessively checks the market price throughout
+        the day, and (Secondary) a non-crypto user who is looking for a "set-it-and-forget-it" way to grow their wealth
+        without a lot of work and worry.</p>
+    <img src="images/case_crypto_personas.jpg" alt="crypto user">
     <h3>Defining the problem</h3>
-    <p>From our research, it was clear that most of the existing products out there were targeted towards our first persona and that there was an opportunity to bring in more passive users with a simpler format. That being said, we knew we needed to design a solution for the client first as he would be the one using the bot and fine-tuning it before opening it up to friends and family, so we decided our dashboard would be optimized toward to the more avid user, while offering a more simplified experience option for our secondary persona.</p>
-    <img src="images/test_image.png" alt="crypto dashboard">
+    <p>Our conversations with both types of users underscored the fact that they wanted to keep a close and constant
+        eye on what their money was doing. Our interviews also confirmed that they wanted to grow their accounts quickly
+        and be able to take advantage of sporadic market upticks.</p>
+    <p>Our secondary users had a deeper distrust of cryptocurrency in general and were especially concerned with making
+        sure that putting their money in a market they were not at all familiar with would be worth the risk.</p>
+    <p>Based on the information we gathered, we decided that for our MVP we would focus on the primary persona and
+        design a tool that would allow them to watch the bot's activities in real-time while also tracking their
+        portfolio's performance metrics.</p>
     <h2>Ideate</h2>
-    <p>Now it was time to come up with a way to solve the problem. During the Discovery phase we learned that most "newbie" crypto users found commonly available market dashboards, wallets, and exchanges overwhelming.</p>
-    <img src="images/test_image.png" alt="crypto dashboard">
+    <p>Now it was time to come up with a way to solve the problem. One UX challenge we had was that the bot was going
+        to be hardware based so that use of the algorithm would limited only to those who were given a bot box and
+        access credentials.This pretty much eliminated the options of a mobile or web application. Fortunately, we
+        learned during the Discovery phase that most of our primary crypto users monitored the markets throughout the
+        day by keeping an exchange tab open on a computer or TV monitor, so we decided to design an interface that was
+        optimized this type of viewing.</p>
+    <p>We started by sketching a number of different ideas, some of which can be seen below, and iterated on the designs
+        until we had a refined concept that we felt best accomplished our users' goals.</p>
+    <img src="images/case_crypto_sketch.jpg" alt="dashboard sketch">
+    <h3>Super Simple Dashboards</h3>
+    <p>The idea we were most happy with was a two-page TV dashboard that gave users a real-time overview of their bot's
+        performance and also allowed them to monitor and compare their portfolio's performance over time. This would
+        give our user's all the information they needed to know at-a-glance if their participation in the fund was
+        working for them or not.</p>
+    <p>I built on this idea and created more detailed wireframes of the interface to validate the usability of the
+        layout, then used those structures to create high-fidelity mock ups.</p>
+    <img src="images/case_crypto_lofi.jpg" alt="dashboard sketch">
     <h2>Prototype</h2>
     <p>One sentence.</p>
-    <img src="images/test_image.png" alt="crypto dashboard">
+    <img src="images/case_crypto_splash.jpg" alt="crypto splash screen">
+    <img src="images/case_crypto_realtime.jpg" alt="crypto real-time dashboard">
+    <img src="images/case_crypto_portfolio.jpg" alt="crypto portfolio dashboard">
     <h2>Test</h2>
     <p>One sentence.</p>
-    <img src="images/test_image.png" alt="crypto dashboard">
+    <img src="images/test_image.png" alt="test image">
     <h2>Implement</h2>
     <p>One sentence.</p>
-    <img src="images/test_image.png" alt="crypto dashboard">
+    <img src="images/test_image.png" alt="test image">
 </div>
 </body>
 </html>
