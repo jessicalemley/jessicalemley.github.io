@@ -141,31 +141,59 @@
     <img src="images/case_crypto_sketch.jpg" alt="dashboard sketch">
     <h3>Super Simple Dashboards</h3>
     <p>The idea we were most happy with was a two-page TV dashboard that gave users a real-time overview of their bot's
-        performance and also allowed them to monitor and compare their portfolio's performance over time. We wanted to
+        activity and also allowed them to monitor and compare their portfolio's performance over time. We wanted to
         give our user's the ability to see how their funds are doing at-a-glance, so we stuck to high-level KPI's and
         removed the clutter of typical exchanges and wallet dashboards.</p>
     <p>I built on this idea and created more detailed wireframes of the interface to validate the usability of the
         layout, then used those structures to create high-fidelity mock ups.</p>
     <img src="images/case_crypto_lofi.jpg" alt="dashboard sketch">
+
+    <h4>UX Challenges</h4>
+    <p>This project represented some unique challenges in terms of design and experience.</p>
+    <ol>
+        <li>
+            <h5>Navigational Limitations</h5>
+            <p>TV UIs are controlled by a D-pad and used at a distance from the screen. The D-pad limits navigation to
+                four direction: up, down, left and right. Unlike web-based dashboards, we could not use nested
+                interactive content.</p>
+        </li>
+
+        <li>
+            <h5>Legibility</h5>
+            <p>TV screens are viewed from a greater distance than mobile and desktop screens. Legibility becomes an
+                important feature which means that the size of text and other elements must be adjusted accordingly. We
+                had to figure out how to communicate a lot of information in while keeping the data legible.</p>
+        </li>
+
+        <li>
+            <h5>Color</h5>
+            <p>TV screens treat color differently. "Hot" colors like saturated yellows and reds tend to bleed and
+                bright whites create halos and flickering. Big white backgrounds feel blinding to TV users and even hurt
+                your eyes in low light. So we needed to make our visual indicators bright enough to stand out without
+                causing discomfort or distraction.</p>
+        </li>
+
+        <li>
+            <h5>Accessibility</h5>
+        <p>Speaking of colors, the most commonly used colors in visual indicators on crypto charts and dashboards are red and green. Of course, this is the absolutely worst color combination for those on the colorblindness spectrum. We had to find colors that communicated positive and negative values effectively but also allowed provided a great experience for colorblind users.</p>
+        </li>
+    </ol>
+
     <h2>Prototype</h2>
     <h3>Splash Screen</h3>
 
     <img src="images/case_crypto_splash.jpg" alt="crypto splash screen">
     <h3>Real-Time Dashboard</h3>
-    <p>When the app loads, users are taken to the Real-Time dashboard where they can view their bot's activity overlayed
-        on a market chart. Visual indicators show when the bot buys, sells, and holds Bitcoin. They can also quickly
+    <p>When the app loads, you are taken to the Real-Time dashboard where you can view your bot's activity overlayed
+        on a market chart. Color-blind-friendly chart indicators show when the bot buys, sells, and holds Bitcoin. Bear and Bull icons on the chart represent whether the market is on an upward or downward trend. You can also quickly
         see their portfolio's collective value and growth in USD, view their bot's performance over a one week rolling
-        period. Finally, users can watch the bot's real-time holdings and active orders complete with profit/loss
+        period. Finally, you can watch the bot's real-time holdings and active orders complete with profit/loss
         calculations.
 
     <img src="images/case_crypto_realtime.jpg" alt="crypto real-time dashboard">
 
     <h3>Portfolio Dashboard</h3>
-    <p>On the portfolio screen, the dashboard charts the user's bot performance against the what they would have made
-        using the "HODL" (buy and hold) strategy. They can also see periods of drawdown; when the bot traded for a loss.</p>
-<h4>
-    "Am I Making Money?"
-</h4>
+    <h4>"Am I Making Money?"</h4>
     <p>In discovery, we learned that typical market analysis platforms display performance metrics in a strategy performance report. To help our users better evaluate the bot's performance, we included five key performance metrics on the dashboard:
         <ol>
     <li>Total Net Profit</li>
@@ -175,19 +203,26 @@
     <li>Maximum Drawdown</li>
 </ol>
 
-    <p>Many of our users cashed out their Bitcoin to pay for living expenses or large purchases. Since this impacts
-        their overall portfolio value and illustrates how the bot is supplementing their income, we included a payout
+    <p>Additionally, many of our users cashed out their Bitcoin to pay for living expenses or large purchases. Since this impacts
+        their overall portfolio value and illustrates how the bot is supplementing income, we included a payout
         tracker.</p>
+    <h4>"Is the Return Worth the Cost?"</h4>
 
-        <p>portfolio KPIs over rolling day, week, month, year, and all-time (since activation) views. View trading fees and fund expense ratios.
-        View payouts received (funds withdrawn from portfolio as income).</p>
+    <p>Operating the bot will require the fund manager to pay subscription costs to access data feeds. There are also Miner fees that are assessed with every trade. The Fees tile allows you to see how these costs impact your total portfolio value. </p>
+    <h4>"Is the Return Worth the Risk?"</h4>
+    <p>Finally, the Portfolio dashboard charts your bot's performance against the what you would have made
+        using the "HODL" (buy and hold) strategy. You can also see periods of drawdown; times when the bot traded for a loss.</p>
+
     <img src="images/case_crypto_portfolio.jpg" alt="crypto portfolio dashboard">
     <h2>Test</h2>
-    <p>One sentence.</p>
-    <img src="images/test_image.png" alt="test image">
-    <h2>Implement</h2>
-    <p>One sentence.</p>
-    <img src="images/test_image.png" alt="test image">
+    <p>The next step will be to bring the screens back to our group of our primary users and conduct a test scenario in which we ask them to tell us how they would answer their three main questions using the dashboard:</p>
+    <ul>
+        <li>Am I making money?</li>
+        <li>Is the return worth the cost?</li>
+        <li>Does the return outweigh the risk?</li>
+    </ul>
+    <p>We'll collect the results of these challenges as well as any other feedback and observations and use those findings to further refine the design and inform future feature decisions.</p>
+
 </div>
 </body>
 </html>
