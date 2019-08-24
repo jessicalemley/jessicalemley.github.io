@@ -88,6 +88,13 @@ body, h1, h2, h3, h4, h5, h6 {
     max-height:80%;
 }
 
+@media screen and (min-width: 1921px){
+    #group1 .responsive {
+        max-width: 846px;
+        max-height: 846px;
+    }
+}
+
 #group1 .center {
     position: absolute;
     top: 50%;
@@ -215,7 +222,7 @@ body, h1, h2, h3, h4, h5, h6 {
 /*COLORS*/
 
 #p-home #group1 .parallax__layer--back {
-    background:#112DD0;
+    background-image: linear-gradient(to top, #112dd0, #102ac4, #0f28b9, #0f25ad, #0e23a2, #0e23a2, #0e23a2, #0f25ad, #0f28b9, #0f28b9, #112dd0, #112dd0, #112dd0);
 }
 
 #p-work #group1 .parallax__layer--back {
