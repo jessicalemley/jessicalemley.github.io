@@ -226,13 +226,13 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 #p-work #group1 .parallax__layer--back {
-    background-image: linear-gradient(to top, #017031, #00652d, #005a28, #004f24, #00441f, #004520, #004720, #004821, #005627, #00652e, #007434, #02843a);
+    background-image: linear-gradient(to top, #017031, #00652d, #005a28, #004f24, #00441f, #004520, #004821, #005627, #00652e, #007434, #02843a);
 
 
 }
 
 #p-work h1 {
-    color: #A2DABA;
+    color: #8FF8A4;
 }
 
 #p-about #group1 .parallax__layer--back {
@@ -240,7 +240,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 #p-about h1 {
-    color: #E4BAFF;
+    color: #CF8DFF;
 }
 
 #p-process #group1 .parallax__layer--back {
@@ -251,5 +251,5 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 #p-process h1 {
-    color: #FFC0E4;
+    color: #FFBCF0;
 }
