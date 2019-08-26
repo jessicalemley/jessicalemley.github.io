@@ -12,26 +12,21 @@
     margin-left: auto;
 }
 #p-home {
-    background-color: #112DD0;
+    background-color: #40026b;
 }
 
-#p-home .collapse.show {
-    background-color: #112DD0;
-    min-height: 100vh;
+#p-work {
+    background-color: #40026b;
+}
+#p-about {
+    background-color: #40026b;
+}
+#p-process {
+    background-color: #40026b;
 }
 
-#p-work .collapse.show {
-    background-color: #009A43;
-    min-height: 100vh;
-}
-
-#p-about .collapse.show {
-    background-color: #450070;
-    min-height: 100vh;
-}
-
-#p-process .collapse.show {
-    background-color: #D50C81;
+.collapse.show {
+    background-color: #40026b;
     min-height: 100vh;
 }
 
@@ -221,35 +216,12 @@ body, h1, h2, h3, h4, h5, h6 {
 
 /*COLORS*/
 
-#p-home #group1 .parallax__layer--back {
-    background-image: linear-gradient(to top, #13137e, #091370, #021161, #001053, #000d45, #000d45, #000e45, #000e45, #011153, #061460, #0e166e, #18187c);
-}
-
-#p-work #group1 .parallax__layer--back {
-    background-image: linear-gradient(to top, #017031, #00652d, #005a28, #004f24, #00441f, #004520, #004821, #005627, #00652e, #007434, #02843a);
-
-
-}
-
-#p-work h1 {
-    color: #8FF8A4;
-}
-
-#p-about #group1 .parallax__layer--back {
+#group1 .parallax__layer--back {
     background-image: linear-gradient(to top, #40026b, #37055e, #2e0751, #260844, #1f0738, #1f0738, #260844, #2e0751, #37055e, #40026b, #40026b);
 }
 
-#p-about h1 {
+
+
+h1 {
     color: #CF8DFF;
-}
-
-#p-process #group1 .parallax__layer--back {
-    background-image: linear-gradient(to top, #bd077c, #b30575, #aa036d, #a00266, #97015f, #9a0761, #9c0d63, #9f1265, #ae1d71, #bd277d, #cd308a, #dc3997);
-
-
-
-}
-
-#p-process h1 {
-    color: #FFBCF0;
 }
