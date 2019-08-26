@@ -222,11 +222,13 @@ body, h1, h2, h3, h4, h5, h6 {
 /*COLORS*/
 
 #p-home #group1 .parallax__layer--back {
-    background-image: linear-gradient(to top, #112dd0, #102ac4, #0f28b9, #0f25ad, #0e23a2, #0e23a2, #0e23a2, #0f25ad, #0f28b9, #0f28b9, #112dd0, #112dd0, #112dd0);
+    background-image: linear-gradient(to top, #13137e, #091370, #021161, #001053, #000d45, #000d45, #000e45, #000e45, #011153, #061460, #0e166e, #18187c);
 }
 
 #p-work #group1 .parallax__layer--back {
-    background: #009A43;
+    background-image: linear-gradient(to top, #017031, #00652d, #005a28, #004f24, #00441f, #004520, #004720, #004821, #005627, #00652e, #007434, #02843a);
+
+
 }
 
 #p-work h1 {
@@ -234,7 +236,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 #p-about #group1 .parallax__layer--back {
-    background: #450070;
+    background-image: linear-gradient(to top, #40026b, #37055e, #2e0751, #260844, #1f0738, #1f0738, #260844, #2e0751, #37055e, #40026b, #40026b);
 }
 
 #p-about h1 {
@@ -242,7 +244,10 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 #p-process #group1 .parallax__layer--back {
-    background: #D50C81;
+    background-image: linear-gradient(to top, #bd077c, #b30575, #aa036d, #a00266, #97015f, #9a0761, #9c0d63, #9f1265, #ae1d71, #bd277d, #cd308a, #dc3997);
+
+
+
 }
 
 #p-process h1 {
