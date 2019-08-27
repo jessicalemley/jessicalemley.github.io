@@ -14,6 +14,13 @@
           href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
           integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
 
+    <!-- Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+
+    <!---Nav CSS-->
+    <link rel="stylesheet" href="css/nav.css">
+
     <!--HERO CSS-->
     <link rel="stylesheet" href="css/hero.css">
 
@@ -50,10 +57,14 @@
 
                             <div class="collapse navbar-collapse" id="navbarNav">
                                     <div class="navbar-nav">
-                                        <a class="nav-item nav-link" href="index.html">Home</a>
+                                        <div class="exit container">
+                                            <i class="modal-close-nav-overlay material-icons md-light">close</i>
+                                        </div>
+                                        <a class="nav-item nav-link top-nav-btn" href="index.html">Home</a>
                                         <a class="nav-itm nav-link active" href="work.html">work<span class="sr-only">(current)</span></a>
                                         <a class="nav-item nav-link" href="about.html">about</a>
                                         <a class="nav-item nav-link" href="process.html">process</a>
+                                        <h4>lemley.jess@gmail.com</h4>
                                     </div>
                                 <button id="contact" type="button" class="btn btn-outline-light">Contact</button>
 

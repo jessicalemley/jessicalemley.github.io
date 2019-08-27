@@ -14,6 +14,13 @@
           href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
           integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
 
+    <!-- Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+
+    <!---Nav CSS-->
+    <link rel="stylesheet" href="css/nav.css">
+
     <!-- Content CSS -->
     <link rel="stylesheet" href="css/content.css">
 
@@ -23,15 +30,30 @@
     <title>Simplifying Sales</title>
 </head>
 
-<header>
-    <nav class="nav justify-content-center">
-        <a class="nav-link active" href="index.html">home</a>
-        <a class="nav-link" href="work.html">work</a>
-        <a class="nav-link" href="about.html">about</a>
-        <a class="nav-link" href="process.html">process</a>
-        <a class="nav-link" href="#">contact</a>
-    </nav>
-</header>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: transparent">
+
+    <div class="container">
+        <a class="navbar-brand" href="index.html">J. LEMLEY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav">
+                <div class="exit container">
+                    <i class="modal-close-nav-overlay material-icons md-light">close</i>
+                </div>
+                <a class="nav-item nav-link top-nav-btn" href="index.html">Home</a>
+                <a class="nav-itm nav-link active" href="work.html">work<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="about.html">about</a>
+                <a class="nav-item nav-link" href="process.html">process</a>
+                <h4>lemley.jess@gmail.com</h4>
+            </div>
+            <button id="contact" type="button" class="btn">Contact</button>
+
+        </div>
+    </div>
+</nav>
 
 <body>
 
@@ -190,4 +212,20 @@
 
 </div>
 </body>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+        integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+        crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+        integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+        crossorigin="anonymous"></script>
+<script>$(document).ready(function () {
+    $('body').bootstrapMaterialDesign();
+});</script>
+<script src="/js/base64.js"></script>
+<script src="/js/site.js"></script>
 </html>
