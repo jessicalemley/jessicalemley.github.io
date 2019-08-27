@@ -1,55 +1,43 @@
 page = function () {
-    let address = "bGVtbGV5Lmplc3NAZ21haWwuY29t";
 
     let pvt = {
-        copyToBuffer: function (text) {
-            let textArea = document.createElement("textarea");
-            textArea.value = text;
-            document.body.appendChild(textArea);
-            textArea.focus();
-            textArea.select();
-
-            let successful = false;
-
-            try {
-                successful = document.execCommand('copy');
-                let msg = successful ? 'successful' : 'unsuccessful';
-                console.log('Fallback: Copying text command was ' + msg);
-            } catch (err) {
-                console.error('Fallback: Oops, unable to copy', err);
-            }
-
-            return successful;
-        },
-        copyEmail: function () {
-            let text = $.base64.decode(address);
-            let wasSuccessful = this.copyToBuffer(text);
-            if (wasSuccessful) {
-                pub.showToast("My email: " + text + " was copied to your clipboard");
+        showNav: function () {
+            let overlay = $(".__nav-overlay");
+            if (overlay.hasClass("show")) {
+                overlay.removeClass("show")
             } else {
-                pub.showToast("Sorry, my email was not copied to your clipboard");
+                overlay.addClass("show")
             }
         },
-
-    };
-
-    let pub = {
-
-        showToast: function (text) {
-            alert(text);
-        },
-
-        init: function () {
-            $("#my_email").click(function () {
-                pvt.copyEmail();
-            });
+        copyNav: function() {
+            let nav = $(".navbar-nav").clone();
+            nav.removeClass("navbar-nav");
+            nav.addClass("__nav-overlay");
+            nav.appendTo($("body"))
         }
 
     };
 
-    return pub
+    return {
+
+        init: function () {
+            $(".navbar-toggler").click(
+                function () {
+                    pvt.showNav();
+                }
+            );
+            pvt.copyNav();
+            $(".modal-close-nav-overlay").click(
+                function (ele) {
+                    $(".__nav-overlay").removeClass("show")
+                }
+            )
+        }
+
+    };
 }();
 
 $(document).ready(function () {
     page.init();
+
 });
