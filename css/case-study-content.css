@@ -1,6 +1,18 @@
+.navbar .nav-link {
+    color: #40026b !important;
+}
 
-.nav-link {
-    color: black;
+.navbar-brand {
+    color: #40026b !important;
+}
+
+.navbar .btn {
+    box-shadow: none !important;
+    color: #40026b !important;
+    font-size: 1rem;
+}
+
+.navbar-light .navbar-toggler-icon {
 }
 
 body {
@@ -12,12 +24,6 @@ body, h1, h2, h3, h4, h5, h6 {
     font-size-adjust: 0.5;
 }
 
-@media screen and (min-width: 990px) {
-    .container {
-        padding-left: 12%;
-        padding-right: 12%;
-    }
-}
 
 
 .c_case_overview ul {
