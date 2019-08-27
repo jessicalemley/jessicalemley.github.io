@@ -1,0 +1,98 @@
+
+
+.navbar { box-shadow: none !important;
+}
+
+.navbar .btn {
+    box-shadow: none !important;
+    color: white;
+    font-size: 1rem;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-nav {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-collapse.collapse.show {
+    display: none;
+    transition: none !important;
+}
+.navbar-collapse.collapsing {
+    display: none;
+    transition: none !important;
+}
+
+.__nav-overlay {
+    display: none;
+
+}
+
+.__nav-overlay.show {
+    background-color: #40026b;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.__nav-overlay.show .nav-link {
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+
+
+}
+
+.__nav-overlay.show h4 {
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.material-icons.md-light {
+    font-size: 36px;
+    color: white;
+    padding-top: 16px;
+}
+
+.exit {
+    position: relative;
+}
+
+.exit .modal-close-nav-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.__nav-overlay .top-nav-btn {
+    margin-top: 2rem;
+}
+
+
+
+.collapse.show {
+    background-color: #40026b;
+    min-height: 100vh;
+}
+
+
+@media screen and (min-width: 992px){
+    #contact.nav-link {
+        display: inline-block;
+        float: right;
+    }
+    .navbar h4 {
+        display: none;
+    }
+    .modal-close-nav-overlay {
+        display: none;
+    }
+}
