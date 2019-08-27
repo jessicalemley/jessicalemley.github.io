@@ -1,16 +1,3 @@
-.navbar { box-shadow: none !important;
- }
-
-.btn { box-shadow: none !important; }
-
-.navbar-brand {
-    color: white;
-}
-
-.navbar-nav {
-    margin-right: auto;
-    margin-left: auto;
-}
 #p-home {
     background-color: #40026b;
 }
@@ -25,18 +12,7 @@
     background-color: #40026b;
 }
 
-.collapse.show {
-    background-color: #40026b;
-    min-height: 100vh;
-}
 
-
-@media screen and (min-width: 568px){
-    #contact.nav-link {
-        display: inline-block;
-        float: right;
-    }
-}
 
 
 /*TYPOGRAPHY*/
