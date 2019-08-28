@@ -144,6 +144,10 @@ body {
     margin-bottom: 3rem;
 }
 
+#p-work .row.last {
+    margin-bottom: 0;
+}
+
 
 #p-home #group3 .c_content_headline {
     text-align: center;
@@ -154,3 +158,8 @@ body {
     transform: translate(-50%, -50%);
     width: 90%;
 }
+
+
+
+
+
