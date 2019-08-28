@@ -22,6 +22,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 #group3 h2 {
+    margin-top: 5em;
     margin-bottom: 2em;
 }
 
@@ -115,7 +116,7 @@ h4 {
     list-style-type: none;
     text-align: center;
 }
-#skills {
+#skills .skill{
     margin-top: 3em;
 }
 
