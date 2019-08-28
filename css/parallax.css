@@ -142,3 +142,10 @@ section + section {
     }
 }
 
+#p-home #group3 .parallax__layer--base {
+    height: 100vh;
+    background-image: url("/images/background_test.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}

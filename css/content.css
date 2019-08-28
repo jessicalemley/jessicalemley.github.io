@@ -144,14 +144,6 @@ body {
     margin-bottom: 3rem;
 }
 
-#p-home #group3 .parallax__layer--base {
-    background-image: url("/images/background_test.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-position:center;
-
-}
 
 #p-home #group3 .c_content_headline {
     text-align: center;
