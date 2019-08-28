@@ -112,18 +112,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 
 
-#p-home #group2 .c_banner_bg{
-    background: #1332E7;
+#group2 .c_banner_bg{
+    background: #40026b;
 }
 
-#p-work #group2 .c_banner_bg{
-    background: #00A848;
-}
-
-#p-about #group2 .c_banner_bg{
-    background: #56008C;
-}
-
-#p-process #group2 .c_banner_bg{
-    background: #DC3997;
-}
