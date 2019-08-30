@@ -40,7 +40,8 @@
 
     <div class="container">
         <a class="navbar-brand" href="index.html">J. LEMLEY</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -86,7 +87,8 @@
         </div>
         <div class="col-sm-10 col-lg-8">
             <blockquote>My challenge was to give members of a cryptocurrency fund a simple way to monitor the
-                performance of an automated trading bot and the growth of their portfolios.</blockquote>
+                performance of an automated trading bot and the growth of their portfolios.
+            </blockquote>
         </div>
     </div>
 
@@ -97,17 +99,19 @@
     <img src="images/case_crypto_overview.png" alt="crypto dashboard">
     <h2>Challenge</h2>
     <p>My client was an android software developer and cryptocurrency trader who was building an automated trading bot
-        that would manage an investment fund for himself and a small group of users. The goal was to find a way for fund
-        members keep an eye on the bot's performance without revealing the formula it used to make decisions.</p>
+        that would manage an investment fund for himself and a small group of users. The goal was to find a way for
+        participants to keep an eye on the bot's performance without revealing the formula it used to make
+        decisions.</p>
     <h2>Discover</h2>
     <p>We started by documenting his intended users (friends, family, and coworkers), challenges with existing
         solutions, and his goals for the bot and dashboard.</p>
     <p>Given that the solution was intended to be a privately used application, we had a relatively small pool of user
-        types to consider. Still, we put together some interview questions and discussed the idea of the bot with his
-        intended customers to gauge interest, gather feedback, and test our initial hypotheses around the value prop.</p>
+        types to consider. Still, we put together some interview questions and discussed the idea with his
+        intended customers to gauge interest, gather feedback, and test the value prop.</p>
     <p>We also looked at competitors such as Tradeview, Coinbase, and traditional investment dashboards to learn how
         people used these tools and what their pain points were. Then we created an affinity diagram to discover common
-        themes and patterns.<p>
+        themes and patterns.
+    <p>
     <h3>Common Insights</h3>
 
     <p>Avid crypto users :</p>
@@ -118,7 +122,7 @@
         <li>With a few notable exceptions, users had between $10,000 and $50,000 invested in cryptocurrency.</li>
         <li>Obsessively monitored exchange accounts and market data.</li>
         <li>Irritated with low, slow returns and high fees with existing fund managers.</li>
-        <li>Don't have time or interest to learn all these trading strategies.</li>
+        <li>Don't have time or interest to learn multiple trading strategies.</li>
         <li>Common buzzwords/phrases: "FUD" "HODL" "To the moon!" "Now's the time to buy..."</li>
 
     </ul>
@@ -138,7 +142,6 @@
         <li>Is the return worth the cost?</li>
         <li>Does the return outweigh the risk?</li>
     </ul>
-    <p>If the answer to all of these was "yes," they all felt their fears and anxieties would be alleviated.</p>
 
     <h2>Define</h2>
     <h3>Personas</h3>
@@ -152,26 +155,21 @@
     <h3>Defining the problem</h3>
     <p>Our conversations with both types of users underscored the fact that they wanted to keep a close and constant
         eye on what their money was doing. Our interviews also confirmed that they wanted to grow their accounts quickly
-        and be able to take advantage of sporadic market upticks.</p>
+        and take advantage of sporadic market upticks.</p>
 
-    <p>Based on the information we gathered, we decided that for our MVP we would focus on the primary persona and
-        design a tool that would allow them to watch the bot's activities in real-time while also tracking their
-        portfolio's performance metrics.</p>
+    <p>We decided that we would focus on the primary persona for our MVP and design a tool that would allow them to
+        monitor the bot's activities in real-time while also tracking their portfolio's performance.</p>
     <h2>Ideate</h2>
-    <p>Now it was time to come up with a way to solve the problem. One UX challenge we had was that the bot was going
-        to be hardware based so that use of the algorithm would limited only to those who were given a bot box and
-        access credentials.This pretty much eliminated the options of a mobile or web application. Fortunately, we
-        learned during the Discovery phase that most of our primary crypto users monitored the markets throughout the
-        day by keeping an exchange tab open on a computer or TV monitor, so we decided to design an interface that was
-        optimized this type of viewing.</p>
+    <p>One UX challenge we had was that the bot was going to be hardware-based to limit the use of the algorithm to
+        only those who were given a bot box and access credentials. So we knew we had to design an interface that was
+        optimized for TV or Desktop monitor viewing.</p>
     <p>We started by sketching a number of different ideas, some of which can be seen below, and iterated on the designs
         until we had a refined concept that we felt best accomplished our users' goals.</p>
     <img src="images/case_crypto_sketch.jpg" alt="dashboard sketch">
     <h3>Super Simple Dashboards</h3>
-    <p>The idea we were most happy with was a two-page TV dashboard that gave users a real-time overview of their bot's
-        activity and also allowed them to monitor and compare their portfolio's performance over time. We wanted to
-        give our user's the ability to see how their funds are doing at-a-glance, so we stuck to high-level KPI's and
-        removed the clutter of typical exchanges and wallet dashboards.</p>
+    <p>The idea we were most happy with was a two-page TV dashboard that displayed bot activity and portfolio metrics.
+        We wanted to give our user's the ability to see how their funds are doing at-a-glance, so we stuck to high-level
+        KPI's and removed the analytical clutter of typical crypto dashboards.</p>
     <p>I built on this idea and created more detailed wireframes of the interface to validate the usability of the
         layout, then used those structures to create high-fidelity mock ups.</p>
     <img src="images/case_crypto_lofi.jpg" alt="dashboard sketch">
@@ -182,74 +180,89 @@
         <li>
             <h5>Navigational Limitations</h5>
             <p>TV UIs are controlled by a D-pad and used at a distance from the screen. The D-pad limits navigation to
-                four direction: up, down, left and right. Unlike web-based dashboards, we could not use nested
+                four directions: up, down, left and right. Unlike web dashboards, we could not use a lot of nested
                 interactive content.</p>
         </li>
 
         <li>
             <h5>Legibility</h5>
-            <p>TV screens are viewed from a greater distance than mobile and desktop screens. Legibility becomes an
-                important feature which means that the size of text and other elements must be adjusted accordingly. We
-                had to figure out how to communicate a lot of information in while keeping the data legible.</p>
+            <p>TV screens are viewed from a greater distance than mobile and desktop screens. We had to figure out how
+                to communicate a lot of information in while keeping the data legible.</p>
         </li>
 
         <li>
             <h5>Color</h5>
             <p>TV screens treat color differently. "Hot" colors like saturated yellows and reds tend to bleed and
-                bright whites create halos and flickering. Big white backgrounds feel blinding to TV users and even hurt
-                your eyes in low light. So we needed to make our visual indicators bright enough to stand out without
-                causing discomfort or distraction.</p>
+                bright whites create halos and flickering and big white backgrounds feel blinding to TV viewers. So we
+                needed to make our visual indicators bright enough to stand out without causing discomfort or
+                distraction.</p>
         </li>
 
         <li>
             <h5>Accessibility</h5>
-        <p>Speaking of colors, the most commonly used colors in visual indicators on crypto charts and dashboards are red and green. Of course, this is the absolutely worst color combination for those on the colorblindness spectrum. We had to find colors that communicated positive and negative values effectively but also allowed provided a great experience for colorblind users.</p>
+            <p>Speaking of colors, the most commonly used colors in visual indicators on crypto charts and dashboards
+                are red and green. Unfortunately, this is the worst color combination for those who are color-blind as
+                they both end up looking like the same shade of brown. Instead, we opted for a dark pink and bright sea
+                foam which translate to yellow and purple for the color-blind.</p>
         </li>
     </ol>
 
     <h2>Prototype</h2>
+    <h4>Scenario</h4>
+    <p>Let's imagine you are a member of this crypto fund. You've been a member for a little over a year and you keep it
+        up on your screen every day to see how things are going. When you start up your bot, the first thing you'l see
+        is
+        the splash screen as the app loads.</p>
     <h3>Splash Screen</h3>
 
     <img src="images/case_crypto_splash.jpg" alt="crypto splash screen">
     <h3>Real-Time Dashboard</h3>
     <p>When the app loads, you are taken to the Real-Time dashboard where you can view your bot's activity overlayed
-        on a market chart. Color-blind-friendly chart indicators show when the bot buys, sells, and holds Bitcoin. Bear and Bull icons on the chart represent whether the market is on an upward or downward trend. You can also quickly
-        see their portfolio's collective value and growth in USD, view their bot's performance over a one week rolling
-        period. Finally, you can watch the bot's real-time holdings and active orders complete with profit/loss
-        calculations.
+        on a market chart. Color-blind-friendly chart indicators show when the bot buys, sells, and holds Bitcoin. Bear
+        and Bull icons on the chart represent whether the market is on an upward or downward trend. You can also
+        see your portfolio's collective value and growth in USD, the number of trades your bot has made over the last
+        seven days, and what percentage of those trades made a profit. In the bottom right corner, you can watch the
+        bot's real-time holdings and active orders complete with profit/loss calculations.
 
-    <img src="images/case_crypto_realtime.jpg" alt="crypto real-time dashboard">
+        <img src="images/case_crypto_realtime.jpg" alt="crypto real-time dashboard">
 
     <h3>Portfolio Dashboard</h3>
     <h4>"Am I Making Money?"</h4>
-    <p>In discovery, we learned that typical market analysis platforms display performance metrics in a strategy performance report. To help our users better evaluate the bot's performance, we included five key performance metrics on the dashboard:
-        <ol>
-    <li>Total Net Profit</li>
-    <li>Profit Factor</li>
-    <li>Percent Profitable</li>
-    <li>Average Trade Net Profit</li>
-    <li>Maximum Drawdown</li>
-</ol>
+    <p>In discovery, we learned that typical market analysis platforms display performance metrics in a strategy
+        performance report. To help our users better evaluate the bot's performance, we included five key performance
+        metrics on the dashboard:
+    <ol>
+        <li>Total Net Profit</li>
+        <li>Profit Factor</li>
+        <li>Percent Profitable</li>
+        <li>Average Trade Net Profit</li>
+        <li>Maximum Drawdown</li>
+    </ol>
 
-    <p>Additionally, many of our users cashed out their Bitcoin to pay for living expenses or large purchases. Since this impacts
-        their overall portfolio value and illustrates how the bot is supplementing income, we included a payout
-        tracker.</p>
+    <p>Additionally, many of our users cashed out their Bitcoin to pay for living expenses or large purchases. Since
+        this impacts their overall portfolio value and illustrates how the bot is supplementing income, we included a
+        payout tracker.</p>
     <h4>"Is the Return Worth the Cost?"</h4>
 
-    <p>Operating the bot will require the fund manager to pay subscription costs to access data feeds. There are also Miner fees that are assessed with every trade. The Fees tile allows you to see how these costs impact your total portfolio value. </p>
+    <p>Operating the bot will require the fund manager to pay subscription costs to access data feeds. There are also
+        Miner fees that are assessed with every trade. The Fees tile allows you to see how these costs impact your total
+        portfolio value. </p>
     <h4>"Is the Return Worth the Risk?"</h4>
     <p>Finally, the Portfolio dashboard charts your bot's performance against the what you would have made
-        using the "HODL" (buy and hold) strategy. You can also see periods of drawdown; times when the bot traded for a loss.</p>
+        using the "HODL" (buy and hold) strategy. You can also see periods of drawdown; times when the bot traded for a
+        loss.</p>
 
     <img src="images/case_crypto_portfolio.jpg" alt="crypto portfolio dashboard">
     <h2>Test</h2>
-    <p>The next step will be to bring the screens back to our group of our primary users and conduct a test scenario in which we ask them to tell us how they would answer their three main questions using the dashboard:</p>
+    <p>The next step will be to bring the screens back to our group of our primary users and conduct a test scenario in
+        which we ask them to tell us how they would answer their three prioritized questions using the dashboard:</p>
     <ul>
         <li>Am I making money?</li>
         <li>Is the return worth the cost?</li>
         <li>Does the return outweigh the risk?</li>
     </ul>
-    <p>We'll collect the results of these challenges as well as any other feedback and observations and use those findings to further refine the design and inform future feature decisions.</p>
+    <p>We'll collect the results of these challenges, as well as any other feedback and observations, and use those
+        findings to further refine the design and inform future feature decisions.</p>
 
 </div>
 
