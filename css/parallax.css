@@ -84,8 +84,8 @@ section + section {
 #group3 .parallax__layer--base {
     background: white;
     height: auto;
-    padding-top: 250px;
-
+    padding-top: 300px;
+    padding-bottom: 5%;
 }
 
 #p-home #group3 .parallax__layer--base {
@@ -113,15 +113,9 @@ section + section {
 }
 
 #group4 p {
-    color: white;
+    color: rgba(255,255,255,.4);
 }
 
-
-@media screen and (orientation: portrait) and (min-width: 375px) {
-    #group3 .parallax__layer--base {
-        padding-top: 350px;
-    }
-}
 
 @media screen and (orientation: portrait) and (min-width: 400px) {
     #group3 .parallax__layer--base {
@@ -131,7 +125,7 @@ section + section {
 
 @media screen and (orientation: portrait) and (min-width: 500px) {
     #group3 .parallax__layer--base {
-        padding-top: 450px;
+        padding-top: 550px;
     }
 }
 
@@ -149,13 +143,7 @@ section + section {
 
 @media screen and (orientation: landscape) and (min-width: 1200px) {
     #group3 .parallax__layer--base {
-        padding-top: 500px;
-    }
-}
-
-@media screen and (orientation: portrait) and (min-width: 1200px) {
-    #group3 .parallax__layer--base {
-        padding-top: 550px;
+        padding-top: 600px;
     }
 }
 
@@ -165,10 +153,6 @@ section + section {
     }
 }
 
-@media screen and (orientation: landscape) and (min-width: 2000px) {
-    #group3 .parallax__layer--base {
-        padding-top: 700px;
-    }
-}
+
 
 
