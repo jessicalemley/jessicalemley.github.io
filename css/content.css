@@ -161,6 +161,33 @@ body {
 }
 
 
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+
+
+.btn-outline-primary {
+    border: 2px solid #6203B6 !important;
+    color: #6203B6 !important;
+}
+
+
+#p-home .btn-outline-primary {
+    border: 2px solid white !important;
+    color: white !important;
+}
 
 

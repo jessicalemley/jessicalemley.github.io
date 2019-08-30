@@ -32,6 +32,10 @@
 
 }
 
+.navbar-dark .navbar-toggler {
+    border-color: transparent;
+}
+
 .__nav-overlay.show {
     background-color: #40026b;
     position: fixed;
@@ -40,6 +44,7 @@
     left: 0;
     right: 0;
     bottom: 0;
+    z-index: 1000;
 }
 
 
@@ -112,7 +117,6 @@ footer .left {
 }
 footer .left p {
     margin-bottom: 0;
-    padding-top: 4px;
 }
 
 footer nav {
@@ -154,9 +158,14 @@ footer nav li {
 
 footer nav li a {
     display: block;
-    color: white;
+    color: rgba(255,255,255,.4);
     text-align: center;
     padding: 16px;
+    text-decoration: none;
+}
+
+footer nav li:hover a {
+    color: rgba(255,255,255,.8);
     text-decoration: none;
 }
 

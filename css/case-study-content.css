@@ -13,6 +13,11 @@
 }
 
 .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(64,2,107, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
 }
 
 body {
@@ -44,13 +49,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 
 
-.left, .middle {
-    width: 25%;
-}
 
-.right {
-    width: 50%;
-}
 
 @media screen and (max-width: 767px ) {
     .right {
@@ -80,6 +79,11 @@ body, h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
     margin-top: 3rem;
     margin-bottom: 3rem;
+}
+
+
+.c_case_content {
+    padding-bottom: 10%;
 }
 
 .c_case_content h2 {
@@ -133,6 +137,93 @@ body, h1, h2, h3, h4, h5, h6 {
 
 }
 
+/*---------------------------CASE STUDY FOOTERS------*/
+footer.case-footer {
+    height: 100px;
+    background: #2A084D;
+
+}
+
+.case-footer .row {
+    padding-top: 2rem;
+}
+
+footer .left {
+    float: none !important;
+    text-align: center;
+}
+
+.left {
+    float: left !important;
+}
+
+footer .left p {
+    margin-bottom: 0;
+    color: rgba(255,255,255,.4);
+}
+
+footer nav {
+    display: none;
+
+}
+
+footer .case-footer .right {
+    float: right !important;
+}
+
+footer .right {
+    display: none;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    footer nav {
+        display: block;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        clear: both;
+        position: absolute;
+
+    }
+
+}
+
+footer nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav li {
+    float: left
+}
+
+footer nav li a {
+    display: block;
+    color: rgba(255,255,255,.4);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+footer nav li:hover a {
+    color: rgba(255,255,255,.8);
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 830px) {
+    footer .right {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 830px) {
+    footer .left {
+        float: left !important;
+        text-align: left;
+    }
+}
 
 
 
