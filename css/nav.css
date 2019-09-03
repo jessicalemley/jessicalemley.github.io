@@ -107,6 +107,11 @@
 
 }
 
+#footer.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 footer .left {
     float: none !important;
     text-align: center;
@@ -130,6 +135,10 @@ footer nav {
 
 footer .right {
     display: none;
+}
+
+footer p {
+    color: rgba(255,255,255,.4);
 }
 
 

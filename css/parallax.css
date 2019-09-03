@@ -68,6 +68,7 @@ section + section {
 
 
 /*--CONTENT------------------------------------------------------------------------------------------*/
+
 #group3 {
     z-index: 5;
 }
@@ -84,7 +85,7 @@ section + section {
 #group3 .parallax__layer--base {
     background: white;
     height: auto;
-    padding-top: 300px;
+    padding-top: 10rem;
     padding-bottom: 5%;
 }
 
@@ -97,6 +98,10 @@ section + section {
     margin-top: 5rem;
 }
 
+#content {
+    margin-top: -8rem;
+    padding-top: 13rem;
+}
 /*--Footer------------------------------------------------------------------------------------------*/
 #group4 {
     z-index: 5;
@@ -112,46 +117,9 @@ section + section {
     position: static;
 }
 
-#group4 p {
-    color: rgba(255,255,255,.4);
-}
 
 
-@media screen and (orientation: portrait) and (min-width: 400px) {
-    #group3 .parallax__layer--base {
-        padding-top: 400px;
-    }
-}
 
-@media screen and (orientation: portrait) and (min-width: 500px) {
-    #group3 .parallax__layer--base {
-        padding-top: 550px;
-    }
-}
-
-@media screen and (orientation: landscape) and (min-width: 1000px) {
-    #group3 .parallax__layer--base {
-        padding-top: 400px;
-    }
-}
-
-@media screen and (orientation: portrait) and (min-width: 1000px) {
-    #group3 .parallax__layer--base {
-        padding-top: 550px;
-    }
-}
-
-@media screen and (orientation: landscape) and (min-width: 1200px) {
-    #group3 .parallax__layer--base {
-        padding-top: 600px;
-    }
-}
-
-@media screen and (orientation: landscape) and (min-width: 1800px) {
-    #group3 .parallax__layer--base {
-        padding-top: 600px;
-    }
-}
 
 
 

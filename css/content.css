@@ -141,11 +141,11 @@ body {
     color: #6203B6;
 }
 
-#p-work .row {
+#work .row {
     margin-bottom: 3rem;
 }
 
-#p-work .row.last {
+#work .row.last {
     margin-bottom: 0;
 }
 
