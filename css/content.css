@@ -137,8 +137,10 @@ body {
     background-color: white;
 }
 
-#group3 h2 {
+#p-about h2 {
     color: #6203B6;
+    padding-top: 4rem;
+
 }
 
 #work .row {

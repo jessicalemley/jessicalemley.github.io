@@ -69,12 +69,13 @@
     margin-top: 5px;
     margin-bottom: 5px;
     direction: ltr;
-    color: #000000;
+    color: rgba(98, 3, 181, 0.4);
 }
 
 .timeline-content span {
     font-size: 1.1rem;
     color: #000000;
+    font-weight: 600;
 }
 
 .timeline-content p {

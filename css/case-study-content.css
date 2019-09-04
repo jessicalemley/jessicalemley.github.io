@@ -49,8 +49,6 @@ body, h1, h2, h3, h4, h5, h6 {
 
 
 
-
-
 @media screen and (max-width: 767px ) {
     .right {
         width: 100%;
@@ -135,8 +133,19 @@ body, h1, h2, h3, h4, h5, h6 {
         /* 2.25x body copy size = 36px */
         line-height: 1.25;
     }
-
 }
+
+
+@media screen and (min-width: 1200px) {
+    .c_case_overview.container {
+        padding: 0 10%;
+    }
+
+    .c_case_content.container {
+        padding: 0 10% 10% 10%;
+    }
+}
+
 
 /*---------------------------CASE STUDY FOOTERS------*/
 footer.case-footer {
