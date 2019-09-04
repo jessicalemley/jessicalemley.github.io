@@ -86,6 +86,7 @@
             </ul>
         </div>
         <div class="col-sm-10 col-lg-8">
+            <h6>Challenge</h6>
             <blockquote>My challenge was to give members of a cryptocurrency fund a simple way to monitor the
                 performance of an automated trading bot and the growth of their portfolios.
             </blockquote>
@@ -108,9 +109,9 @@
     <p>Given that the solution was intended to be a privately used application, we had a relatively small pool of user
         types to consider. Still, we put together some interview questions and discussed the idea with his
         intended customers to gauge interest, gather feedback, and test the value prop.</p>
-    <p>We also looked at competitors such as Tradeview, Coinbase, and traditional investment dashboards to learn how
-        people used these tools and what their pain points were. Then we created an affinity diagram to discover common
-        themes and patterns.
+    <p>We also looked at competitors such as Tradeview, Coinbase, and traditional investment dashboards to understand
+        how people used these tools and what their pain points were. Then we created an affinity diagram to discover
+        common themes and patterns.
     <p>
 
     <p>When it came to investments, all users prioritized the same primary concerns:</p>
@@ -138,14 +139,14 @@
 
     <h3>Defining the problem</h3>
     <p>Our conversations with all users underscored the fact that they wanted to keep a close and constant
-        eye on what their money was, grow their accounts quickly, and take advantage of sporadic market upticks.</p>
+        eye on what their money was doing, grow their accounts quickly, and take advantage of sporadic market
+        upticks.</p>
 
     <p>We decided that we would focus on Enthusiasts as the primary persona for the MVP and design a tool that would
-        allow them to
-        monitor the bot's activities in real-time while tracking their portfolio's performance.</p>
+        allow them to monitor the bot's activities in real-time while tracking their portfolio's performance.</p>
     <h2>Ideate</h2>
     <p>One UX challenge we had was that the bot was going to be hardware-based to limit the use of the algorithm to
-        only those who were given a bot box and access credentials. So we knew we had to design an interface that was
+        only those who were given a bot box and access credentials. So, we knew we had to design an interface that was
         optimized for TV or desktop viewing.</p>
     <p>We started by sketching a number of different ideas, some of which can be seen below, and iterated on the designs
         until we had a refined concept that we felt best accomplished our users' goals.</p>
@@ -193,7 +194,6 @@
     <img src="images/case_crypto_lofi.jpg" alt="dashboard sketch">
 
 
-
     <h2>Prototype</h2>
     <h3>Splash Screen</h3>
     <p>I created a prototype using Sketch to represent key features and interactions.</p>
@@ -206,15 +206,17 @@
     <h3>Real-Time Dashboard</h3>
     <p>When the app loads, you are taken to the Real-Time dashboard where you can view your bot's activity overlayed
         on a market chart. Color-blind-friendly chart indicators show when the bot buys, sells, and holds Bitcoin. Bear
-        and Bull icons on the chart represent whether the market is on an upward or downward trend. You can also
-        see your portfolio's collective value and growth in USD, the number of trades your bot has made over the last
-        seven days, and what percentage of those trades made a profit. In the bottom right corner, you can watch the
-        bot's real-time holdings and active orders complete with profit/loss calculations.
+        and Bull icons on the chart represent whether the market is on an upward or downward trend.</p>
 
-        <img src="images/case_crypto_realtime.jpg" alt="crypto real-time dashboard">
+    <h4>"Am I Making Money?"</h4>
+    <p>You can also see your portfolio's collective value and growth in USD, the number of trades your bot has made over
+        the last seven days, and what percentage of those trades made a profit. In the bottom right corner, you can
+        watch the bot's real-time holdings and active orders complete with profit/loss calculations.</p>
+
+    <img src="images/case_crypto_realtime.jpg" alt="crypto real-time dashboard">
 
     <h3>Portfolio Dashboard</h3>
-    <h4>"Am I Making Money?"</h4>
+    <h4>"Am I Making Money? (cont.)"</h4>
     <p>In discovery, we learned that typical market analysis platforms display performance metrics in a strategy
         performance report. To help our users better evaluate the bot's performance, we included five key performance
         metrics on the dashboard:
