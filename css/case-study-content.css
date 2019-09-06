@@ -146,6 +146,16 @@ body, h1, h2, h3, h4, h5, h6 {
     }
 }
 
+@media screen and (min-width: 1800px) {
+    .c_case_overview.container {
+        padding: 0 5%;
+    }
+
+    .c_case_content.container {
+        padding: 0 5% 10% 5%;
+    }
+}
+
 
 /*---------------------------CASE STUDY FOOTERS------*/
 footer.case-footer {
