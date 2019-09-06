@@ -12,6 +12,9 @@
 .navbar-brand {
     color: white;
 }
+.navbar-brand img {
+    max-height: 30px;
+}
 
 .navbar-nav {
     margin-right: auto;
