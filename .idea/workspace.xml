@@ -293,7 +293,7 @@
       <workItem from="1567733395544" duration="3375000" />
       <workItem from="1567781291206" duration="6074000" />
       <workItem from="1567803176415" duration="330000" />
-      <workItem from="1568048549309" duration="674000" />
+      <workItem from="1568048549309" duration="687000" />
     </task>
     <task id="LOCAL-00099" summary="fixed banner resizing issues, centered banner content">
       <created>1566583170696</created>
@@ -642,7 +642,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="351257000" />
+    <option name="totallyTimeSpent" value="351270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1504" y="-1243" width="1504" height="1669" extended-state="0" />
