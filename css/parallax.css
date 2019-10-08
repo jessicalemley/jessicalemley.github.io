@@ -87,6 +87,7 @@ section + section {
     height: auto;
     padding-top: 10rem;
     padding-bottom: 5%;
+
 }
 
 #p-home #group3 .parallax__layer--base {
@@ -99,8 +100,8 @@ section + section {
 }
 
 #content {
-    margin-top: -8rem;
-    padding-top: 13rem;
+    margin-top: -13.5rem;
+    padding-top: 18.5rem;
 }
 /*--Footer------------------------------------------------------------------------------------------*/
 #group4 {
