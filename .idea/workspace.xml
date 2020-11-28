@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aab4887-9065-47e8-ac8a-4804950225a1" name="Default Changelist" comment="">
+    <list default="true" id="5aab4887-9065-47e8-ac8a-4804950225a1" name="Default Changelist" comment="Changed terminology, skills, descriptions to match updated resume">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero_about.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/hero_about.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process.html" beforeDir="false" afterPath="$PROJECT_DIR$/process.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplifying_sales.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplifying_sales.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,7 +111,7 @@
       <workItem from="1571064061528" duration="1124000" />
       <workItem from="1573233492764" duration="1921000" />
       <workItem from="1573601635553" duration="2115000" />
-      <workItem from="1606591621881" duration="2669000" />
+      <workItem from="1606591621881" duration="7109000" />
     </task>
     <task id="LOCAL-00104" summary="adjusted color gradients">
       <created>1566850567007</created>
@@ -485,7 +486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed navigation colors and visibility" />
     <MESSAGE value="wired up contact modal" />
     <MESSAGE value="Updated copy" />
     <MESSAGE value="set h4 font size" />
@@ -510,6 +510,7 @@
     <MESSAGE value="smaller hero image sizes" />
     <MESSAGE value="fixed content margin and padding top" />
     <MESSAGE value="changed 5 to 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed 5 to 7" />
+    <MESSAGE value="Changed terminology, skills, descriptions to match updated resume" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed terminology, skills, descriptions to match updated resume" />
   </component>
 </project>
